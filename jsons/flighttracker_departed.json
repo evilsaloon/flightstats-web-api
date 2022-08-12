@@ -1,0 +1,1275 @@
+{
+    "data": {
+        "flightId": 1103754715,
+        "flightNote": {
+            "final": true,
+            "canceled": false,
+            "hasDepartedGate": true,
+            "hasDepartedRunway": true,
+            "landed": true,
+            "message": "The flight has landed",
+            "messageCode": "L",
+            "pastExpectedTakeOff": true,
+            "tracking": false,
+            "hasPositions": true,
+            "trackingUnavailable": false,
+            "phase": "Landed",
+            "hasActualRunwayDepartureTime": true,
+            "hasActualGateDepartureTime": true
+        },
+        "isTracking": false,
+        "isLanded": true,
+        "isScheduled": false,
+        "sortTime": "2022-08-04T21:59:00.000Z",
+        "schedule": {
+            "scheduledDeparture": "2022-08-04T17:59:00.000",
+            "scheduledDepartureUTC": "2022-08-04T21:59:00.000Z",
+            "estimatedActualDepartureRunway": false,
+            "estimatedActualDepartureTitle": "Actual",
+            "estimatedActualDeparture": "2022-08-04T17:53:00.000",
+            "estimatedActualDepartureUTC": "2022-08-04T21:53:00.000Z",
+            "scheduledArrival": "2022-08-04T18:55:00.000",
+            "scheduledArrivalUTC": "2022-08-04T23:55:00.000Z",
+            "estimatedActualArrivalRunway": false,
+            "estimatedActualArrivalTitle": "Actual",
+            "estimatedActualArrival": "2022-08-04T19:24:00.000",
+            "estimatedActualArrivalUTC": "2022-08-05T00:24:00.000Z",
+            "graphXAxis": {
+                "dep": "2022-08-04T17:53:00.000",
+                "depUTC": "2022-08-04T21:53:00.000Z",
+                "arr": "2022-08-04T19:24:00.000",
+                "arrUTC": "2022-08-05T00:24:00.000Z"
+            },
+            "tookOff": "2022-08-04T17:53:00.000",
+            "landing": "2022-08-04T19:24:00.000",
+            "isLanded": true
+        },
+        "status": {
+            "statusCode": "L",
+            "status": "Arrived",
+            "color": "yellow",
+            "statusDescription": "Delayed by 29m",
+            "delay": {
+                "departure": {
+                    "minutes": 0
+                },
+                "arrival": {
+                    "minutes": 29
+                }
+            },
+            "delayStatus": {
+                "wording": "Delayed by 29m",
+                "minutes": 29
+            },
+            "lastUpdatedText": "Status Last Updated More Than 3 Hours Ago",
+            "finalStatus": "Delayed",
+            "diverted": false
+        },
+        "resultHeader": {
+            "statusDescription": "Delayed by 29m",
+            "carrier": {
+                "name": "United Airlines",
+                "fs": "UA"
+            },
+            "flightNumber": "3867",
+            "status": "Arrived",
+            "diverted": false,
+            "color": "yellow",
+            "departureAirportFS": "SCE",
+            "arrivalAirportFS": "ORD",
+            "divertedAirport": null
+        },
+        "ticketHeader": {
+            "carrier": {
+                "name": "United Airlines",
+                "fs": "UA"
+            },
+            "flightNumber": "3867"
+        },
+        "operatedBy": "Operated by Air Wisconsin on behalf of United Airlines",
+        "departureAirport": {
+            "fs": "SCE",
+            "iata": "SCE",
+            "name": "University Park Airport",
+            "city": "State College",
+            "state": "PA",
+            "country": "US",
+            "timeZoneRegionName": "America/New_York",
+            "regionName": "North America",
+            "gate": "B",
+            "terminal": null,
+            "times": {
+                "scheduled": {
+                    "time": "5:59",
+                    "ampm": "PM",
+                    "time24": "17:59",
+                    "timezone": "EDT"
+                },
+                "estimatedActual": {
+                    "title": "Actual",
+                    "time": "5:53",
+                    "ampm": "PM",
+                    "time24": "17:53",
+                    "runway": false,
+                    "timezone": "EDT"
+                }
+            },
+            "date": "2022-08-04T17:59:00.000"
+        },
+        "arrivalAirport": {
+            "fs": "ORD",
+            "iata": "ORD",
+            "name": "O'Hare International Airport",
+            "city": "Chicago",
+            "state": "IL",
+            "country": "US",
+            "timeZoneRegionName": "America/Chicago",
+            "regionName": "North America",
+            "gate": "F27",
+            "terminal": "2",
+            "baggage": "2",
+            "times": {
+                "scheduled": {
+                    "time": "6:55",
+                    "ampm": "PM",
+                    "time24": "18:55",
+                    "timezone": "CDT"
+                },
+                "estimatedActual": {
+                    "title": "Actual",
+                    "time": "7:24",
+                    "ampm": "PM",
+                    "time24": "19:24",
+                    "runway": false,
+                    "timezone": "CDT"
+                }
+            },
+            "date": "2022-08-04T18:55:00.000"
+        },
+        "divertedAirport": null,
+        "additionalFlightInfo": {
+            "equipment": {
+                "iata": "CR2",
+                "name": "Canadair (Bombardier) Regional Jet 200",
+                "title": "Actual"
+            },
+            "flightDuration": "2h 31m"
+        },
+        "codeshares": [],
+        "positional": {
+            "departureAirportCode": "SCE",
+            "arrivalAirportCode": "ORD",
+            "divertedAirportCode": null,
+            "flexFlightStatus": "L",
+            "flexTrack": {
+                "flightId": 1103754715,
+                "carrierFsCode": "ZW",
+                "flightNumber": "3867",
+                "tailNumber": "N434AW",
+                "callsign": "AWI3867",
+                "departureAirportFsCode": "SCE",
+                "arrivalAirportFsCode": "ORD",
+                "departureDate": {
+                    "dateUtc": "2022-08-04T21:59:00.000Z",
+                    "dateLocal": "2022-08-04T17:59:00.000"
+                },
+                "equipment": "CR2",
+                "delayMinutes": 29,
+                "bearing": 331.0446712236654,
+                "heading": 86.10475852506256,
+                "positions": [{
+                        "lon": -87.8908,
+                        "lat": 41.958,
+                        "speedMph": 79,
+                        "altitudeFt": 668,
+                        "source": "derived",
+                        "date": "2022-08-05T00:15:56.509Z",
+                        "course": 88,
+                        "vrateMps": -4,
+                        "lastObserved": "2022-08-05T00:15:05.000Z"
+                    },
+                    {
+                        "lon": -87.9205,
+                        "lat": 41.9565,
+                        "speedMph": 125,
+                        "altitudeFt": 732,
+                        "source": "derived",
+                        "date": "2022-08-05T00:14:56.487Z",
+                        "course": 91,
+                        "vrateMps": -4,
+                        "lastObserved": "2022-08-05T00:15:05.000Z"
+                    },
+                    {
+                        "lon": -87.9294,
+                        "lat": 41.9572,
+                        "speedMph": 127,
+                        "altitudeFt": 856,
+                        "source": "derived",
+                        "date": "2022-08-05T00:14:46.092Z",
+                        "course": 89,
+                        "vrateMps": -3,
+                        "lastObserved": "2022-08-05T00:15:05.000Z"
+                    },
+                    {
+                        "lon": -87.9531,
+                        "lat": 41.9517,
+                        "speedMph": 224,
+                        "altitudeFt": 1626,
+                        "source": "derived",
+                        "date": "2022-08-05T00:13:56.450Z",
+                        "course": 98,
+                        "vrateMps": -3,
+                        "lastObserved": "2022-08-05T00:15:05.000Z"
+                    },
+                    {
+                        "lon": -87.9893,
+                        "lat": 41.9513,
+                        "speedMph": 368,
+                        "altitudeFt": 2647,
+                        "source": "derived",
+                        "date": "2022-08-05T00:12:56.418Z",
+                        "course": 95,
+                        "vrateMps": -2,
+                        "lastObserved": "2022-08-05T00:15:05.000Z"
+                    },
+                    {
+                        "lon": -88.0557,
+                        "lat": 41.9522,
+                        "speedMph": 434,
+                        "altitudeFt": 3573,
+                        "source": "derived",
+                        "date": "2022-08-05T00:11:56.242Z",
+                        "course": 92,
+                        "vrateMps": -2,
+                        "lastObserved": "2022-08-05T00:15:05.000Z"
+                    },
+                    {
+                        "lon": -88.1446,
+                        "lat": 41.9518,
+                        "speedMph": 447,
+                        "altitudeFt": 4437,
+                        "source": "derived",
+                        "date": "2022-08-05T00:10:56.214Z",
+                        "course": 89,
+                        "vrateMps": -1,
+                        "lastObserved": "2022-08-05T00:15:05.000Z"
+                    },
+                    {
+                        "lon": -88.2399,
+                        "lat": 41.9554,
+                        "speedMph": 417,
+                        "altitudeFt": 5000,
+                        "source": "derived",
+                        "date": "2022-08-05T00:09:56.208Z",
+                        "course": 75,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-05T00:14:40.000Z"
+                    },
+                    {
+                        "lon": -88.3457,
+                        "lat": 41.9471,
+                        "speedMph": 249,
+                        "altitudeFt": 4873,
+                        "source": "derived",
+                        "date": "2022-08-05T00:08:56.148Z",
+                        "course": 46,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-05T00:13:42.000Z"
+                    },
+                    {
+                        "lon": -88.4174,
+                        "lat": 41.9172,
+                        "speedMph": 184,
+                        "altitudeFt": 4596,
+                        "source": "derived",
+                        "date": "2022-08-05T00:07:56.052Z",
+                        "course": -42,
+                        "vrateMps": -2,
+                        "lastObserved": "2022-08-05T00:12:40.000Z"
+                    },
+                    {
+                        "lon": -88.3928,
+                        "lat": 41.8714,
+                        "speedMph": 266,
+                        "altitudeFt": 4598,
+                        "source": "derived",
+                        "date": "2022-08-05T00:06:55.984Z",
+                        "course": -91,
+                        "vrateMps": -2,
+                        "lastObserved": "2022-08-05T00:11:43.000Z"
+                    },
+                    {
+                        "lon": -88.3054,
+                        "lat": 41.8719,
+                        "speedMph": 279,
+                        "altitudeFt": 4731,
+                        "source": "derived",
+                        "date": "2022-08-05T00:05:55.939Z",
+                        "course": -94,
+                        "vrateMps": -3,
+                        "lastObserved": "2022-08-05T00:10:30.000Z"
+                    },
+                    {
+                        "lon": -88.2121,
+                        "lat": 41.8788,
+                        "speedMph": 299,
+                        "altitudeFt": 5293,
+                        "source": "derived",
+                        "date": "2022-08-05T00:04:55.842Z",
+                        "course": -96,
+                        "vrateMps": -4,
+                        "lastObserved": "2022-08-05T00:09:35.000Z"
+                    },
+                    {
+                        "lon": -88.1163,
+                        "lat": 41.8835,
+                        "speedMph": 313,
+                        "altitudeFt": 5799,
+                        "source": "derived",
+                        "date": "2022-08-05T00:03:55.763Z",
+                        "course": -96,
+                        "vrateMps": -4,
+                        "lastObserved": "2022-08-05T00:08:38.000Z"
+                    },
+                    {
+                        "lon": -88.0188,
+                        "lat": 41.8904,
+                        "speedMph": 304,
+                        "altitudeFt": 6620,
+                        "source": "derived",
+                        "date": "2022-08-05T00:02:55.739Z",
+                        "course": -96,
+                        "vrateMps": -4,
+                        "lastObserved": "2022-08-05T00:07:35.000Z"
+                    },
+                    {
+                        "lon": -87.9204,
+                        "lat": 41.8865,
+                        "speedMph": 303,
+                        "altitudeFt": 7543,
+                        "source": "derived",
+                        "date": "2022-08-05T00:01:55.356Z",
+                        "course": -85,
+                        "vrateMps": -3,
+                        "lastObserved": "2022-08-05T00:06:42.000Z"
+                    },
+                    {
+                        "lon": -87.816,
+                        "lat": 41.886,
+                        "speedMph": 317,
+                        "altitudeFt": 8104,
+                        "source": "derived",
+                        "date": "2022-08-05T00:00:55.302Z",
+                        "course": -57,
+                        "vrateMps": -3,
+                        "lastObserved": "2022-08-05T00:05:39.000Z"
+                    },
+                    {
+                        "lon": -87.7281,
+                        "lat": 41.8432,
+                        "speedMph": 332,
+                        "altitudeFt": 8578,
+                        "source": "derived",
+                        "date": "2022-08-04T23:59:55.236Z",
+                        "course": -56,
+                        "vrateMps": -3,
+                        "lastObserved": "2022-08-05T00:04:39.000Z"
+                    },
+                    {
+                        "lon": -87.6373,
+                        "lat": 41.7974,
+                        "speedMph": 368,
+                        "altitudeFt": 9254,
+                        "source": "derived",
+                        "date": "2022-08-04T23:58:55.082Z",
+                        "course": -54,
+                        "vrateMps": -4,
+                        "lastObserved": "2022-08-05T00:03:37.000Z"
+                    },
+                    {
+                        "lon": -87.5357,
+                        "lat": 41.7486,
+                        "speedMph": 385,
+                        "altitudeFt": 9093,
+                        "source": "derived",
+                        "date": "2022-08-04T23:57:55.078Z",
+                        "course": -50,
+                        "vrateMps": -6,
+                        "lastObserved": "2022-08-05T00:02:42.000Z"
+                    },
+                    {
+                        "lon": -87.4365,
+                        "lat": 41.6913,
+                        "speedMph": 391,
+                        "altitudeFt": 10182,
+                        "source": "derived",
+                        "date": "2022-08-04T23:56:55.006Z",
+                        "course": -53,
+                        "vrateMps": -6,
+                        "lastObserved": "2022-08-05T00:01:26.000Z"
+                    },
+                    {
+                        "lon": -87.3327,
+                        "lat": 41.6387,
+                        "speedMph": 409,
+                        "altitudeFt": 10856,
+                        "source": "derived",
+                        "date": "2022-08-04T23:55:54.900Z",
+                        "course": -56,
+                        "vrateMps": -6,
+                        "lastObserved": "2022-08-05T00:00:34.000Z"
+                    },
+                    {
+                        "lon": -87.2218,
+                        "lat": 41.5848,
+                        "speedMph": 412,
+                        "altitudeFt": 12022,
+                        "source": "derived",
+                        "date": "2022-08-04T23:54:54.858Z",
+                        "course": -59,
+                        "vrateMps": -7,
+                        "lastObserved": "2022-08-04T23:59:29.000Z"
+                    },
+                    {
+                        "lon": -87.1067,
+                        "lat": 41.5346,
+                        "speedMph": 399,
+                        "altitudeFt": 13311,
+                        "source": "derived",
+                        "date": "2022-08-04T23:53:54.794Z",
+                        "course": -63,
+                        "vrateMps": -7,
+                        "lastObserved": "2022-08-04T23:57:56.000Z"
+                    },
+                    {
+                        "lon": -86.9895,
+                        "lat": 41.4899,
+                        "speedMph": 412,
+                        "altitudeFt": 14600,
+                        "source": "derived",
+                        "date": "2022-08-04T23:52:54.738Z",
+                        "course": -64,
+                        "vrateMps": -7,
+                        "lastObserved": "2022-08-04T23:57:39.000Z"
+                    },
+                    {
+                        "lon": -86.8673,
+                        "lat": 41.4412,
+                        "speedMph": 447,
+                        "altitudeFt": 15932,
+                        "source": "derived",
+                        "date": "2022-08-04T23:51:54.547Z",
+                        "course": -57,
+                        "vrateMps": -7,
+                        "lastObserved": "2022-08-04T23:56:43.000Z"
+                    },
+                    {
+                        "lon": -86.7411,
+                        "lat": 41.3828,
+                        "speedMph": 493,
+                        "altitudeFt": 17297,
+                        "source": "derived",
+                        "date": "2022-08-04T23:50:54.469Z",
+                        "course": -52,
+                        "vrateMps": -7,
+                        "lastObserved": "2022-08-04T23:55:39.000Z"
+                    },
+                    {
+                        "lon": -86.6139,
+                        "lat": 41.3298,
+                        "speedMph": 488,
+                        "altitudeFt": 18730,
+                        "source": "derived",
+                        "date": "2022-08-04T23:49:54.467Z",
+                        "course": -57,
+                        "vrateMps": -6,
+                        "lastObserved": "2022-08-04T23:54:45.000Z"
+                    },
+                    {
+                        "lon": -86.4877,
+                        "lat": 41.2084,
+                        "speedMph": 456,
+                        "altitudeFt": 21072,
+                        "source": "derived",
+                        "date": "2022-08-04T23:48:54.195Z",
+                        "course": -96,
+                        "vrateMps": -4,
+                        "lastObserved": "2022-08-04T23:53:34.000Z"
+                    },
+                    {
+                        "lon": -86.342,
+                        "lat": 41.2167,
+                        "speedMph": 468,
+                        "altitudeFt": 22194,
+                        "source": "derived",
+                        "date": "2022-08-04T23:47:54.118Z",
+                        "course": -99,
+                        "vrateMps": -3,
+                        "lastObserved": "2022-08-04T23:52:33.000Z"
+                    },
+                    {
+                        "lon": -86.1929,
+                        "lat": 41.2334,
+                        "speedMph": 472,
+                        "altitudeFt": 22921,
+                        "source": "derived",
+                        "date": "2022-08-04T23:46:54.043Z",
+                        "course": -98,
+                        "vrateMps": -3,
+                        "lastObserved": "2022-08-04T23:51:38.000Z"
+                    },
+                    {
+                        "lon": -86.043,
+                        "lat": 41.2458,
+                        "speedMph": 490,
+                        "altitudeFt": 23947,
+                        "source": "derived",
+                        "date": "2022-08-04T23:45:54.002Z",
+                        "course": -95,
+                        "vrateMps": -2,
+                        "lastObserved": "2022-08-04T23:50:39.000Z"
+                    },
+                    {
+                        "lon": -85.889,
+                        "lat": 41.257,
+                        "speedMph": 487,
+                        "altitudeFt": 24618,
+                        "source": "derived",
+                        "date": "2022-08-04T23:44:53.831Z",
+                        "course": -93,
+                        "vrateMps": -1,
+                        "lastObserved": "2022-08-04T23:49:33.000Z"
+                    },
+                    {
+                        "lon": -85.7345,
+                        "lat": 41.2655,
+                        "speedMph": 480,
+                        "altitudeFt": 24984,
+                        "source": "derived",
+                        "date": "2022-08-04T23:43:53.812Z",
+                        "course": -90,
+                        "vrateMps": -1,
+                        "lastObserved": "2022-08-04T23:48:39.000Z"
+                    },
+                    {
+                        "lon": -85.5825,
+                        "lat": 41.2682,
+                        "speedMph": 473,
+                        "altitudeFt": 25154,
+                        "source": "derived",
+                        "date": "2022-08-04T23:42:53.765Z",
+                        "course": -87,
+                        "vrateMps": -1,
+                        "lastObserved": "2022-08-04T23:47:38.000Z"
+                    },
+                    {
+                        "lon": -85.4303,
+                        "lat": 41.2627,
+                        "speedMph": 459,
+                        "altitudeFt": 25367,
+                        "source": "derived",
+                        "date": "2022-08-04T23:41:53.731Z",
+                        "course": -87,
+                        "vrateMps": -1,
+                        "lastObserved": "2022-08-04T23:46:35.000Z"
+                    },
+                    {
+                        "lon": -85.2816,
+                        "lat": 41.2572,
+                        "speedMph": 449,
+                        "altitudeFt": 25737,
+                        "source": "derived",
+                        "date": "2022-08-04T23:40:53.660Z",
+                        "course": -87,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:45:35.000Z"
+                    },
+                    {
+                        "lon": -85.1368,
+                        "lat": 41.2517,
+                        "speedMph": 451,
+                        "altitudeFt": 25990,
+                        "source": "derived",
+                        "date": "2022-08-04T23:39:53.455Z",
+                        "course": -87,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:44:35.000Z"
+                    },
+                    {
+                        "lon": -84.9919,
+                        "lat": 41.2463,
+                        "speedMph": 445,
+                        "altitudeFt": 25874,
+                        "source": "derived",
+                        "date": "2022-08-04T23:38:53.314Z",
+                        "course": -87,
+                        "vrateMps": -1,
+                        "lastObserved": "2022-08-04T23:43:29.000Z"
+                    },
+                    {
+                        "lon": -84.8485,
+                        "lat": 41.2409,
+                        "speedMph": 437,
+                        "altitudeFt": 25807,
+                        "source": "derived",
+                        "date": "2022-08-04T23:37:53.022Z",
+                        "course": -87,
+                        "vrateMps": -2,
+                        "lastObserved": "2022-08-04T23:42:40.000Z"
+                    },
+                    {
+                        "lon": -84.7046,
+                        "lat": 41.2359,
+                        "speedMph": 446,
+                        "altitudeFt": 25970,
+                        "source": "derived",
+                        "date": "2022-08-04T23:36:52.935Z",
+                        "course": -87,
+                        "vrateMps": -2,
+                        "lastObserved": "2022-08-04T23:41:36.000Z"
+                    },
+                    {
+                        "lon": -84.561,
+                        "lat": 41.2315,
+                        "speedMph": 465,
+                        "altitudeFt": 26217,
+                        "source": "derived",
+                        "date": "2022-08-04T23:35:52.516Z",
+                        "course": -88,
+                        "vrateMps": -2,
+                        "lastObserved": "2022-08-04T23:40:29.000Z"
+                    },
+                    {
+                        "lon": -84.4082,
+                        "lat": 41.2272,
+                        "speedMph": 477,
+                        "altitudeFt": 26657,
+                        "source": "derived",
+                        "date": "2022-08-04T23:34:52.382Z",
+                        "course": -87,
+                        "vrateMps": -2,
+                        "lastObserved": "2022-08-04T23:39:32.000Z"
+                    },
+                    {
+                        "lon": -84.2534,
+                        "lat": 41.2223,
+                        "speedMph": 499,
+                        "altitudeFt": 27528,
+                        "source": "derived",
+                        "date": "2022-08-04T23:33:52.342Z",
+                        "course": -87,
+                        "vrateMps": -1,
+                        "lastObserved": "2022-08-04T23:38:37.000Z"
+                    },
+                    {
+                        "lon": -84.0901,
+                        "lat": 41.2167,
+                        "speedMph": 466,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:32:52.046Z",
+                        "course": -87,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:37:28.000Z"
+                    },
+                    {
+                        "lon": -83.9415,
+                        "lat": 41.2109,
+                        "speedMph": 461,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:31:52.031Z",
+                        "course": -87,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:36:40.000Z"
+                    },
+                    {
+                        "lon": -83.7954,
+                        "lat": 41.2049,
+                        "speedMph": 436,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:30:51.905Z",
+                        "course": -87,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:35:34.000Z"
+                    },
+                    {
+                        "lon": -83.6555,
+                        "lat": 41.199,
+                        "speedMph": 465,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:29:51.736Z",
+                        "course": -2,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:34:29.000Z"
+                    },
+                    {
+                        "lon": -83.5041,
+                        "lat": 41.1923,
+                        "speedMph": 465,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:28:51.373Z",
+                        "course": -2,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:33:36.000Z"
+                    },
+                    {
+                        "lon": -83.9352,
+                        "lat": 41.2082,
+                        "speedMph": 972,
+                        "altitudeFt": 32000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:27:50.867Z",
+                        "course": 273,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:32:22.000Z"
+                    },
+                    {
+                        "lon": -83.6381,
+                        "lat": 41.1982,
+                        "speedMph": 465,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:26:50.715Z",
+                        "course": -2,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:31:23.000Z"
+                    },
+                    {
+                        "lon": -83.792,
+                        "lat": 41.2048,
+                        "speedMph": 465,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:25:49.315Z",
+                        "course": -2,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:29:55.000Z"
+                    },
+                    {
+                        "lon": -83.9534,
+                        "lat": 41.2115,
+                        "speedMph": 465,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:24:44.219Z",
+                        "course": -2,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:29:29.000Z"
+                    },
+                    {
+                        "lon": -82.7901,
+                        "lat": 41.1537,
+                        "speedMph": 972,
+                        "altitudeFt": 32000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:23:44.215Z",
+                        "course": 274,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:28:23.000Z"
+                    },
+                    {
+                        "lon": -82.7155,
+                        "lat": 41.1541,
+                        "speedMph": 454,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:23:30.073Z",
+                        "course": -86,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:28:05.000Z"
+                    },
+                    {
+                        "lon": -82.5684,
+                        "lat": 41.1466,
+                        "speedMph": 452,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:22:30.031Z",
+                        "course": -86,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:27:17.000Z"
+                    },
+                    {
+                        "lon": -82.4292,
+                        "lat": 41.1393,
+                        "speedMph": 480,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:21:30.006Z",
+                        "course": -85,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:26:15.000Z"
+                    },
+                    {
+                        "lon": -82.2762,
+                        "lat": 41.1311,
+                        "speedMph": 470,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:20:29.919Z",
+                        "course": -85,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:25:10.000Z"
+                    },
+                    {
+                        "lon": -82.1252,
+                        "lat": 41.1228,
+                        "speedMph": 463,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:19:29.916Z",
+                        "course": -85,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:23:58.000Z"
+                    },
+                    {
+                        "lon": -81.9774,
+                        "lat": 41.1145,
+                        "speedMph": 468,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:18:29.896Z",
+                        "course": -85,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:23:12.000Z"
+                    },
+                    {
+                        "lon": -81.8368,
+                        "lat": 41.1064,
+                        "speedMph": 489,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:17:29.766Z",
+                        "course": -85,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:22:10.000Z"
+                    },
+                    {
+                        "lon": -81.683,
+                        "lat": 41.0974,
+                        "speedMph": 474,
+                        "altitudeFt": 28000,
+                        "source": "derived",
+                        "date": "2022-08-04T23:16:29.759Z",
+                        "course": -85,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:21:10.000Z"
+                    },
+                    {
+                        "lon": -81.5363,
+                        "lat": 41.0889,
+                        "speedMph": 453,
+                        "altitudeFt": 28063,
+                        "source": "derived",
+                        "date": "2022-08-04T23:15:29.726Z",
+                        "course": -85,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:20:13.000Z"
+                    },
+                    {
+                        "lon": -81.3899,
+                        "lat": 41.0791,
+                        "speedMph": 434,
+                        "altitudeFt": 28199,
+                        "source": "derived",
+                        "date": "2022-08-04T23:14:29.690Z",
+                        "course": -86,
+                        "vrateMps": 1,
+                        "lastObserved": "2022-08-04T23:19:18.000Z"
+                    },
+                    {
+                        "lon": -81.2505,
+                        "lat": 41.0717,
+                        "speedMph": 439,
+                        "altitudeFt": 28031,
+                        "source": "derived",
+                        "date": "2022-08-04T23:13:29.644Z",
+                        "course": -85,
+                        "vrateMps": 2,
+                        "lastObserved": "2022-08-04T23:18:16.000Z"
+                    },
+                    {
+                        "lon": -81.1125,
+                        "lat": 41.0627,
+                        "speedMph": 437,
+                        "altitudeFt": 27886,
+                        "source": "derived",
+                        "date": "2022-08-04T23:12:29.630Z",
+                        "course": -84,
+                        "vrateMps": 2,
+                        "lastObserved": "2022-08-04T23:17:10.000Z"
+                    },
+                    {
+                        "lon": -80.9783,
+                        "lat": 41.0525,
+                        "speedMph": 422,
+                        "altitudeFt": 27553,
+                        "source": "derived",
+                        "date": "2022-08-04T23:11:29.570Z",
+                        "course": -83,
+                        "vrateMps": 2,
+                        "lastObserved": "2022-08-04T23:15:42.000Z"
+                    },
+                    {
+                        "lon": -80.8366,
+                        "lat": 41.0422,
+                        "speedMph": 394,
+                        "altitudeFt": 27121,
+                        "source": "derived",
+                        "date": "2022-08-04T23:10:29.527Z",
+                        "course": -81,
+                        "vrateMps": 1,
+                        "lastObserved": "2022-08-04T23:14:57.000Z"
+                    },
+                    {
+                        "lon": -80.709,
+                        "lat": 41.0278,
+                        "speedMph": 400,
+                        "altitudeFt": 26794,
+                        "source": "derived",
+                        "date": "2022-08-04T23:09:29.489Z",
+                        "course": -81,
+                        "vrateMps": 1,
+                        "lastObserved": "2022-08-04T23:14:11.000Z"
+                    },
+                    {
+                        "lon": -80.5805,
+                        "lat": 41.0131,
+                        "speedMph": 401,
+                        "altitudeFt": 26359,
+                        "source": "derived",
+                        "date": "2022-08-04T23:08:29.479Z",
+                        "course": -81,
+                        "vrateMps": 1,
+                        "lastObserved": "2022-08-04T23:13:04.000Z"
+                    },
+                    {
+                        "lon": -80.4522,
+                        "lat": 40.9983,
+                        "speedMph": 415,
+                        "altitudeFt": 26107,
+                        "source": "derived",
+                        "date": "2022-08-04T23:07:29.440Z",
+                        "course": -81,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:12:14.000Z"
+                    },
+                    {
+                        "lon": -80.3236,
+                        "lat": 40.9833,
+                        "speedMph": 425,
+                        "altitudeFt": 26067,
+                        "source": "derived",
+                        "date": "2022-08-04T23:06:29.396Z",
+                        "course": -81,
+                        "vrateMps": 0,
+                        "lastObserved": "2022-08-04T23:11:10.000Z"
+                    },
+                    {
+                        "lon": -80.1925,
+                        "lat": 40.9675,
+                        "speedMph": 406,
+                        "altitudeFt": 26175,
+                        "source": "derived",
+                        "date": "2022-08-04T23:05:29.382Z",
+                        "course": -81,
+                        "vrateMps": 1,
+                        "lastObserved": "2022-08-04T23:10:08.000Z"
+                    },
+                    {
+                        "lon": -80.061,
+                        "lat": 40.9517,
+                        "speedMph": 399,
+                        "altitudeFt": 26203,
+                        "source": "derived",
+                        "date": "2022-08-04T23:04:29.298Z",
+                        "course": -80,
+                        "vrateMps": 2,
+                        "lastObserved": "2022-08-04T23:09:11.000Z"
+                    },
+                    {
+                        "lon": -79.9321,
+                        "lat": 40.936,
+                        "speedMph": 402,
+                        "altitudeFt": 26044,
+                        "source": "derived",
+                        "date": "2022-08-04T23:03:29.276Z",
+                        "course": -80,
+                        "vrateMps": 3,
+                        "lastObserved": "2022-08-04T23:08:13.000Z"
+                    },
+                    {
+                        "lon": -79.7988,
+                        "lat": 40.9197,
+                        "speedMph": 432,
+                        "altitudeFt": 25802,
+                        "source": "derived",
+                        "date": "2022-08-04T23:02:29.238Z",
+                        "course": -80,
+                        "vrateMps": 4,
+                        "lastObserved": "2022-08-04T23:06:54.000Z"
+                    },
+                    {
+                        "lon": -79.6667,
+                        "lat": 40.9034,
+                        "speedMph": 455,
+                        "altitudeFt": 25243,
+                        "source": "derived",
+                        "date": "2022-08-04T23:01:29.205Z",
+                        "course": -80,
+                        "vrateMps": 5,
+                        "lastObserved": "2022-08-04T23:06:10.000Z"
+                    },
+                    {
+                        "lon": -79.5286,
+                        "lat": 40.8847,
+                        "speedMph": 452,
+                        "altitudeFt": 24314,
+                        "source": "derived",
+                        "date": "2022-08-04T23:00:29.156Z",
+                        "course": -78,
+                        "vrateMps": 5,
+                        "lastObserved": "2022-08-04T23:05:08.000Z"
+                    },
+                    {
+                        "lon": -79.3882,
+                        "lat": 40.8662,
+                        "speedMph": 414,
+                        "altitudeFt": 23325,
+                        "source": "derived",
+                        "date": "2022-08-04T22:59:29.148Z",
+                        "course": -78,
+                        "vrateMps": 4,
+                        "lastObserved": "2022-08-04T23:04:16.000Z"
+                    },
+                    {
+                        "lon": -79.2598,
+                        "lat": 40.8494,
+                        "speedMph": 401,
+                        "altitudeFt": 22481,
+                        "source": "derived",
+                        "date": "2022-08-04T22:58:29.119Z",
+                        "course": -80,
+                        "vrateMps": 5,
+                        "lastObserved": "2022-08-04T23:03:05.000Z"
+                    },
+                    {
+                        "lon": -79.0386,
+                        "lat": 40.83,
+                        "speedMph": 341,
+                        "altitudeFt": 12016,
+                        "source": "derived",
+                        "date": "2022-08-04T22:57:29.060Z",
+                        "course": 270,
+                        "vrateMps": 8,
+                        "lastObserved": "2022-08-04T23:02:18.000Z"
+                    },
+                    {
+                        "lon": -78.9364,
+                        "lat": 40.8333,
+                        "speedMph": 299,
+                        "altitudeFt": 10466,
+                        "source": "derived",
+                        "date": "2022-08-04T22:56:28.973Z",
+                        "course": 267,
+                        "vrateMps": 8,
+                        "lastObserved": "2022-08-04T23:01:15.000Z"
+                    },
+                    {
+                        "lon": -78.8452,
+                        "lat": 40.8368,
+                        "speedMph": 281,
+                        "altitudeFt": 9581,
+                        "source": "derived",
+                        "date": "2022-08-04T22:55:28.926Z",
+                        "course": 267,
+                        "vrateMps": 3,
+                        "lastObserved": "2022-08-04T23:00:15.000Z"
+                    },
+                    {
+                        "lon": -78.7655,
+                        "lat": 40.8306,
+                        "speedMph": 381,
+                        "altitudeFt": 18775,
+                        "source": "derived",
+                        "date": "2022-08-04T22:54:28.896Z",
+                        "course": -90,
+                        "vrateMps": 9,
+                        "lastObserved": "2022-08-04T22:59:14.000Z"
+                    },
+                    {
+                        "lon": -79.4681,
+                        "lat": 40.8216,
+                        "speedMph": 604,
+                        "altitudeFt": 20188,
+                        "source": "derived",
+                        "date": "2022-08-04T22:53:28.830Z",
+                        "course": -90,
+                        "vrateMps": 12,
+                        "lastObserved": "2022-08-04T22:58:17.000Z"
+                    },
+                    {
+                        "lon": -78.5543,
+                        "lat": 40.8307,
+                        "speedMph": 403,
+                        "altitudeFt": 17559,
+                        "source": "derived",
+                        "date": "2022-08-04T22:52:28.806Z",
+                        "course": -90,
+                        "vrateMps": 12,
+                        "lastObserved": "2022-08-04T22:57:14.000Z"
+                    },
+                    {
+                        "lon": -78.4298,
+                        "lat": 40.8314,
+                        "speedMph": 378,
+                        "altitudeFt": 15249,
+                        "source": "derived",
+                        "date": "2022-08-04T22:51:28.791Z",
+                        "course": -90,
+                        "vrateMps": 12,
+                        "lastObserved": "2022-08-04T22:56:15.000Z"
+                    },
+                    {
+                        "lon": -78.3132,
+                        "lat": 40.8319,
+                        "speedMph": 353,
+                        "altitudeFt": 12939,
+                        "source": "derived",
+                        "date": "2022-08-04T22:50:28.782Z",
+                        "course": -90,
+                        "vrateMps": 12,
+                        "lastObserved": "2022-08-04T22:55:13.000Z"
+                    },
+                    {
+                        "lon": -78.2047,
+                        "lat": 40.8322,
+                        "speedMph": 328,
+                        "altitudeFt": 10629,
+                        "source": "derived",
+                        "date": "2022-08-04T22:49:28.755Z",
+                        "course": -90,
+                        "vrateMps": 12,
+                        "lastObserved": "2022-08-04T22:54:04.000Z"
+                    },
+                    {
+                        "lon": -78.1109,
+                        "lat": 40.8329,
+                        "speedMph": 349,
+                        "altitudeFt": 8170,
+                        "source": "derived",
+                        "date": "2022-08-04T22:48:28.680Z",
+                        "course": -89,
+                        "vrateMps": 11,
+                        "lastObserved": "2022-08-04T22:53:15.000Z"
+                    },
+                    {
+                        "lon": -78.009,
+                        "lat": 40.832,
+                        "speedMph": 290,
+                        "altitudeFt": 5970,
+                        "source": "derived",
+                        "date": "2022-08-04T22:47:28.677Z",
+                        "course": -90,
+                        "vrateMps": 11,
+                        "lastObserved": "2022-08-04T22:52:15.000Z"
+                    },
+                    {
+                        "lon": -77.9281,
+                        "lat": 40.8321,
+                        "speedMph": 239,
+                        "altitudeFt": 3770,
+                        "source": "derived",
+                        "date": "2022-08-04T22:46:28.618Z",
+                        "course": -2,
+                        "vrateMps": 11,
+                        "lastObserved": "2022-08-04T22:51:13.000Z"
+                    },
+                    {
+                        "lon": -77.8808,
+                        "lat": 40.85,
+                        "speedMph": 172,
+                        "altitudeFt": 1579,
+                        "source": "derived",
+                        "date": "2022-08-04T22:45:28.613Z",
+                        "course": 270,
+                        "vrateMps": 3,
+                        "lastObserved": "2022-08-04T22:50:12.000Z"
+                    },
+                    {
+                        "lon": -77.8166,
+                        "lat": 40.8346,
+                        "speedMph": 113,
+                        "altitudeFt": 1239,
+                        "source": "derived",
+                        "date": "2022-08-04T22:44:28.598Z",
+                        "course": -95,
+                        "vrateMps": 11,
+                        "lastObserved": "2022-08-04T22:49:10.000Z"
+                    },
+                    {
+                        "lon": -77.7903,
+                        "lat": 40.8372,
+                        "speedMph": 55,
+                        "altitudeFt": 1239,
+                        "source": "derived",
+                        "date": "2022-08-04T22:43:28.525Z",
+                        "course": -104,
+                        "vrateMps": 11,
+                        "lastObserved": "2022-08-04T22:48:11.000Z"
+                    },
+                    {
+                        "lon": -78.1802,
+                        "lat": 40.831,
+                        "speedMph": 239,
+                        "altitudeFt": 1239,
+                        "source": "derived",
+                        "date": "2022-08-04T22:42:28.510Z",
+                        "course": -2,
+                        "vrateMps": 11,
+                        "lastObserved": "2022-08-04T22:47:08.000Z"
+                    },
+                    {
+                        "lon": -77.8757,
+                        "lat": 40.85,
+                        "speedMph": 172,
+                        "altitudeFt": 1524,
+                        "source": "derived",
+                        "date": "2022-08-04T22:41:28.500Z",
+                        "course": 270,
+                        "vrateMps": 3,
+                        "lastObserved": "2022-08-04T22:46:08.000Z"
+                    },
+                    {
+                        "lon": -77.8547,
+                        "lat": 40.85,
+                        "speedMph": 168,
+                        "altitudeFt": 1292,
+                        "source": "derived",
+                        "date": "2022-08-04T22:41:05.294Z",
+                        "course": 270,
+                        "vrateMps": 3,
+                        "lastObserved": "2022-08-04T22:45:06.000Z"
+                    },
+                    {
+                        "lon": -77.85,
+                        "lat": 40.85,
+                        "speedMph": 168,
+                        "altitudeFt": 1239,
+                        "source": "derived",
+                        "date": "2022-08-04T22:41:00.000Z",
+                        "course": 0,
+                        "vrateMps": 0
+                    }
+                ],
+                "irregularOperations": [],
+                "fleetAircraftId": 58290
+            }
+        },
+        "flightState": "historical"
+    }
+}

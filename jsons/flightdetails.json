@@ -1,0 +1,1705 @@
+{
+    "App": {
+        "csrf": "",
+        "release": "6.1.0",
+        "routeName": "ExtendedDetails",
+        "routeConfig": [
+            {
+                "path": "/account/verify",
+                "name": "VerifyEmail",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/register/plan",
+                "name": "PlanSelection",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/register/create",
+                "name": "CreateAccount",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/register/billing-information",
+                "name": "RegistrationBillingInformation",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/register/completion",
+                "name": "RegistrationCompletion",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/",
+                "name": "Homepage",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/search",
+                "name": "UnifiedSearch",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/search/advanced",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/search",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/departing/:departureAirportCode/:carrier",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/departures/:departureAirportCode/:year/:month/:day/:hour?/:carrier?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/departures/:departureAirportCode/:carrier?",
+                "name": "MultiFlight",
+                "canonical": "/flight-tracker/departures/:departureAirportCode",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/departing/:departureAirportCode/:year?/:month?/:day?/:hour?/:carrier?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/departures",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/arriving/:arrivalAirportCode/:carrier",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/arrivals/:arrivalAirportCode/:year/:month/:day/:hour?/:carrier?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/arrivals/:arrivalAirportCode/:carrier?",
+                "name": "MultiFlight",
+                "canonical": "/flight-tracker/arrivals/:arrivalAirportCode",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/arriving/:arrivalAirportCode/:year?/:month?/:day?/:hour?/:carrier?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/arrivals",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/route/:departureAirportCode/:arrivalAirportCode/:year/:month/:day/:hour?/:carrier?",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/route/:departureAirportCode/:arrivalAirportCode/:carrier?",
+                "name": "MultiFlight",
+                "canonical": "/flight-tracker/route/:departureAirportCode/:arrivalAirportCode",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/route",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber/map",
+                "name": "FlightTrackerMap",
+                "canonical": "/flight-tracker/:carrier/:flightNumber/map",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber/other-stops",
+                "name": "FlightTrackerOtherStops",
+                "canonical": "/flight-tracker/:carrier/:flightNumber/other-stops",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber/:year/:month/:day/:flightId?/map",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber/:year/:month/:day/:flightId?/other-stops",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber/:year/:month/:day/:flightId?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber",
+                "name": "FlightTracker",
+                "exact": "",
+                "canonical": "/flight-tracker/:carrier/:flightNumber",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/search",
+                "name": "DeparturesArrivalsLanding",
+                "exact": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/search/",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/:airportCode/:departureArrival/:year/:month/:day",
+                "name": "DeparturesArrivals",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/:airportCode/:departureArrival",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/subscribe",
+                "name": "SubscriptionMarketing",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving",
+                "exact": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/subscription",
+                "name": "SubscriptionMarketing",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/account/subscribe",
+                "name": "Subscribe",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/account/success",
+                "name": "SubscriptionSuccess",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/account/invoice/:referenceNumber",
+                "name": "ViewPaymentHistoryDetail",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/my-account",
+                "name": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/account/login",
+                "name": "Login",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/account/forgot-password",
+                "name": "ForgotPassword",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/account",
+                "name": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/register",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/map-attributions",
+                "name": "TermsAndCreditsMapAttributions",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-conditions/search",
+                "name": "AirportSearch",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-conditions/search/",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-conditions/:airportCode",
+                "name": "AirportCurrentConditions",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-conditions",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/subscribe",
+                "name": "FlightAlertsSubscriptionMarketing",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/subscribe",
+                "name": "HistoricalSubscriptionMarketing",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/search",
+                "name": "HistoricalSearch",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/departing/:departureAirportCode/:carrier?",
+                "name": "HistoricalMultiFlight",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/departing/:departureAirportCode/:year?/:month?/:day?/:carrier?",
+                "name": "HistoricalMultiFlight",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/arriving/:arrivalAirportCode/:carrier?",
+                "name": "HistoricalMultiFlight",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/arriving/:arrivalAirportCode/:year?/:month?/:day?/:carrier?",
+                "name": "HistoricalMultiFlight",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/route/:departureAirportCode/:arrivalAirportCode/:year?/:month?/:day?/:carrier?",
+                "name": "HistoricalMultiFlight",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/:carrier/:flightNumber/:year/:month/:day/:flightId?",
+                "name": "HistoricalFlightTracker",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/subscribe",
+                "name": "DepArrSubscriptionMarketing",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-details/:carrier/:flightNumber/:year/:month/:day/:flightId?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-details/:carrier/:flightNumber",
+                "name": "ExtendedDetails",
+                "canonical": "/flight-details/:carrier/:flightNumber",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts",
+                "exact": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/home",
+                "name": "FlightAlerts",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/new/:carrier/:flightNumber/:year/:month/:day/:departureAirport/:arrivalAirport/:trackerReferral?",
+                "name": "NewFlightAlert",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/new/:carrier/:flightNumber/:year/:month/:day",
+                "name": "FlightAlertsSegmentSelect",
+                "exact": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/history/home",
+                "name": "FlightAlertsHistory",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/history/details/:wmaId",
+                "name": "FlightAlertsHistoryDetails",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-delays",
+                "name": "AirportDelayMap",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-delays/:region",
+                "name": "AirportDelayMap",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-delays/:region?",
+                "name": "AirportDelayMap",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-ontime-performance-rating/:carrierCode/:flightNumber/:departureAirport?/:arrivalAirport?",
+                "name": "OnTimePerformance",
+                "canonical": "/flight-ontime-performance-rating/:carrierCode/:flightNumber",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/global-cancellations-and-delays",
+                "name": "GlobalCancellationsDelays",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/sitemap",
+                "name": "SiteMap",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/blocked",
+                "name": "BlockedAccount",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            }
+        ],
+        "appHost": "https://www.flightstats.com/v2",
+        "userAgent": {
+            "isYaBrowser": false,
+            "isAuthoritative": false,
+            "isMobile": false,
+            "isMobileNative": false,
+            "isTablet": false,
+            "isiPad": false,
+            "isiPod": false,
+            "isiPhone": false,
+            "isiPhoneNative": false,
+            "isAndroid": false,
+            "isAndroidNative": false,
+            "isBlackberry": false,
+            "isOpera": false,
+            "isIE": false,
+            "isEdge": false,
+            "isIECompatibilityMode": false,
+            "isSafari": false,
+            "isFirefox": false,
+            "isWebkit": false,
+            "isChrome": false,
+            "isKonqueror": false,
+            "isOmniWeb": false,
+            "isSeaMonkey": false,
+            "isFlock": false,
+            "isAmaya": false,
+            "isPhantomJS": false,
+            "isEpiphany": false,
+            "isDesktop": false,
+            "isWindows": false,
+            "isLinux": false,
+            "isLinux64": false,
+            "isMac": false,
+            "isChromeOS": false,
+            "isBada": false,
+            "isSamsung": false,
+            "isRaspberry": false,
+            "isBot": "python",
+            "isCurl": false,
+            "isAndroidTablet": false,
+            "isWinJs": false,
+            "isKindleFire": false,
+            "isSilk": false,
+            "isCaptive": false,
+            "isSmartTV": false,
+            "isUC": false,
+            "isFacebook": false,
+            "isAlamoFire": false,
+            "isElectron": false,
+            "silkAccelerated": false,
+            "browser": "python-httpx",
+            "version": "0.22.0",
+            "os": "unknown",
+            "platform": "unknown",
+            "geoIp": {},
+            "source": "python-httpx/0.22.0",
+            "isWechat": false
+        },
+        "siteKey": "CUT OUT FOR PRIVACY REASONS",
+        "variants": {}
+    },
+    "Account": {
+        "changePasswordDialogOpen": false,
+        "cityError": null,
+        "countryCodeError": null,
+        "deleteAccountDialogOpen": false,
+        "deleteAccountCheckboxChecked": false,
+        "deletedAccount": false,
+        "finishedProfileFetch": false,
+        "loaded": false,
+        "loginError": null,
+        "loggedIn": false,
+        "nameError": null,
+        "newAdditionalInfo": {},
+        "planSelected": "standard",
+        "postalCodeError": null,
+        "registrationEmail": "",
+        "registrationError": null,
+        "registrationRecaptcha": null,
+        "registrationPassword": "",
+        "registrationPasswordConfirmation": "",
+        "shouldRedirectToOutagePage": false,
+        "streetAddressError": null,
+        "accountAttentionRequired": false,
+        "braintreeClientToken": "",
+        "reasonForUnsubscribing": "",
+        "registrationBillingInformationBtnDisabled": false,
+        "registrationFlowToken": null,
+        "updateSuccess": false,
+        "user": null,
+        "userServiceRegistrationError": null,
+        "serverTime": 1660155016
+    },
+    "AirportCurrentConditions": {
+        "loading": false,
+        "loaded": false,
+        "airport": {
+            "timerOn": false
+        },
+        "loadAttempts": 0,
+        "detailsHeader": {},
+        "forecastWeather": [],
+        "delayIndex": {},
+        "currentWeather": {},
+        "airportCode": "",
+        "airportSearchItem": {},
+        "callSecondaryAction": false
+    },
+    "AirportDelayMap": {
+        "initialLoad": true,
+        "loading": false,
+        "loaded": false,
+        "loadAttempts": 0,
+        "airport": null,
+        "center": null,
+        "spinnerActive": false,
+        "region": "northAmerica",
+        "zoom": null
+    },
+    "AirportDeparturesArrivals": {
+        "dateFieldIndex": 1,
+        "loading": false,
+        "loaded": false,
+        "airport": null,
+        "isArrival": false,
+        "isDeparture": false,
+        "secondaryAction": false
+    },
+    "FlightAlerts": {
+        "loading": false,
+        "loaded": false,
+        "sortColumn": "DATE",
+        "sortOrder": true,
+        "currentResult": [],
+        "couldNotDestroyError": null,
+        "checkFlightsResult": [],
+        "alertPhonePreference": false,
+        "secondaryAction": false,
+        "queryError": ""
+    },
+    "FlightAlertHistory": {
+        "loading": true,
+        "loaded": false,
+        "earliestAlert": "--",
+        "latestAlert": "--",
+        "costForTimePeriod": "--",
+        "keywordFilterResults": null,
+        "waitForInitialProcessing": true,
+        "data": []
+    },
+    "FlightTrackerSearch": {
+        "loading": false,
+        "loaded": false,
+        "airline": null,
+        "byAirportAirline": null,
+        "byAirportDepartureDate": null,
+        "byAirportError": null,
+        "byFlightError": null,
+        "flightNumber": "",
+        "error": null,
+        "departureTime": 6,
+        "departureDate": null,
+        "flight": null,
+        "arrivalAirport": null,
+        "departureAirport": null,
+        "secondarySearchAction": false,
+        "secondaryAdvancedSearchAction": false,
+        "secondaryAdvancedSearchActionAirline": false,
+        "secondaryAdvancedSearchActionByAirportAirline": false,
+        "secondaryAdvancedSearchActionByAirportDepDate": false,
+        "secondaryAdvancedSearchActionDepAirport": false,
+        "secondaryAdvancedSearchActionArrAirport": false,
+        "secondaryAdvancedSearchActionDepDate": false,
+        "secondaryAdvancedSearchActionTime": false
+    },
+    "Modal": {
+        "modalType": null,
+        "modalProps": {}
+    },
+    "MultiFlightTracker": {
+        "loading": false,
+        "loaded": false,
+        "pageIndex": 1,
+        "searchUrl": "",
+        "multiFlightMobileSearchLoading": false,
+        "multiFlightSearchHasMounted": false,
+        "validationError": false
+    },
+    "MultiHistoricalFlightStatus": {
+        "parameters": {},
+        "loading": false,
+        "loaded": false,
+        "pageIndex": 1
+    },
+    "OnTimePerformance": {
+        "error": null,
+        "loadAttempts": 0,
+        "loading": false,
+        "loaded": false,
+        "ratings": null
+    },
+    "SingleFlightTracker": {
+        "airline": {},
+        "loadAttempts": 2,
+        "error": null,
+        "flightTrackerOutOfDateRange": false,
+        "loading": false,
+        "loaded": true,
+        "refreshCount": 0,
+        "segments": [],
+        "attemptedToLoadSegment": false,
+        "singleFlightTrackerError": false,
+        "flight": {},
+        "secondarySearchAction": false,
+        "otherDays": [],
+        "otherDaysLoading": false,
+        "extendedData": {
+            "sortTime": "2022-08-10T21:59:00.000Z",
+            "flightId": 1104664029,
+            "carrier": {
+                "fs": "UA",
+                "name": "United Airlines",
+                "flightNumber": "3867",
+                "iata": "UA",
+                "icao": "UAL",
+                "active": true,
+                "category": "I"
+            },
+            "codeshares": null,
+            "departureAirport": {
+                "fs": "SCE",
+                "iata": "SCE",
+                "icao": "KUNV",
+                "name": "University Park Airport",
+                "city": "State College",
+                "state": "PA",
+                "country": "US",
+                "active": true,
+                "classification": 4,
+                "timeZoneRegionName": "America/New_York",
+                "gate": "B",
+                "terminal": null,
+                "times": {
+                    "scheduledGate": {
+                        "time": "5:59",
+                        "ampm": "pm",
+                        "time24": "17:59",
+                        "timezone": "EDT"
+                    },
+                    "estimatedGate": {
+                        "time": "5:59",
+                        "ampm": "pm",
+                        "time24": "17:59",
+                        "timezone": "EDT"
+                    },
+                    "scheduledRunway": {
+                        "time": "6:08",
+                        "ampm": "pm",
+                        "time24": "18:08",
+                        "timezone": "EDT"
+                    }
+                },
+                "date": "2022-08-10T17:59:00.000",
+                "timezoneCode": "EDT"
+            },
+            "arrivalAirport": {
+                "fs": "ORD",
+                "iata": "ORD",
+                "icao": "KORD",
+                "name": "O'Hare International Airport",
+                "city": "Chicago",
+                "state": "IL",
+                "country": "US",
+                "active": true,
+                "classification": 1,
+                "timeZoneRegionName": "America/Chicago",
+                "gate": "F28",
+                "terminal": "2",
+                "baggage": "2",
+                "times": {
+                    "scheduledGate": {
+                        "time": "6:55",
+                        "ampm": "pm",
+                        "time24": "18:55",
+                        "timezone": "CDT"
+                    },
+                    "estimatedGate": {
+                        "time": "6:55",
+                        "ampm": "pm",
+                        "time24": "18:55",
+                        "timezone": "CDT"
+                    },
+                    "scheduledRunway": {
+                        "time": "6:44",
+                        "ampm": "pm",
+                        "time24": "18:44",
+                        "timezone": "CDT"
+                    }
+                },
+                "date": "2022-08-10T18:55:00.000",
+                "timezoneCode": "CDT"
+            },
+            "divertedAirport": null,
+            "operatedBy": "Operated by Air Wisconsin on behalf of United Airlines",
+            "departureTimes": {
+                "scheduledGate": {
+                    "time": "5:59",
+                    "ampm": "pm",
+                    "time24": "17:59",
+                    "timezone": "EDT"
+                },
+                "estimatedGate": {
+                    "time": "5:59",
+                    "ampm": "pm",
+                    "time24": "17:59",
+                    "timezone": "EDT"
+                },
+                "scheduledRunway": {
+                    "time": "6:08",
+                    "ampm": "pm",
+                    "time24": "18:08",
+                    "timezone": "EDT"
+                }
+            },
+            "arrivalTimes": {
+                "scheduledGate": {
+                    "time": "6:55",
+                    "ampm": "pm",
+                    "time24": "18:55",
+                    "timezone": "CDT"
+                },
+                "estimatedGate": {
+                    "time": "6:55",
+                    "ampm": "pm",
+                    "time24": "18:55",
+                    "timezone": "CDT"
+                },
+                "scheduledRunway": {
+                    "time": "6:44",
+                    "ampm": "pm",
+                    "time24": "18:44",
+                    "timezone": "CDT"
+                }
+            },
+            "url": "/historical-flight/UA/3867/2022/8/10/1104664029",
+            "schedule": {
+                "scheduledGateDeparture": "2022-08-10T17:59:00.000",
+                "scheduledGateDepartureUTC": "2022-08-10T21:59:00.000Z",
+                "scheduledRunwayDeparture": "2022-08-10T18:08:00.000",
+                "scheduledRunwayDepartureUTC": "2022-08-10T22:08:00.000Z",
+                "estimatedGateDeparture": "2022-08-10T17:59:00.000",
+                "estimatedGateDepartureUTC": "2022-08-10T21:59:00.000Z",
+                "scheduledGateArrival": "2022-08-10T18:55:00.000",
+                "scheduledGateArrivalUTC": "2022-08-10T23:55:00.000Z",
+                "scheduledRunwayArrival": "2022-08-10T18:44:00.000",
+                "scheduledRunwayArrivalUTC": "2022-08-10T23:44:00.000Z",
+                "estimatedGateArrival": "2022-08-10T18:55:00.000",
+                "estimatedGateArrivalUTC": "2022-08-10T23:55:00.000Z"
+            },
+            "status": {
+                "statusCode": "S",
+                "status": "Scheduled",
+                "color": "green",
+                "statusDescription": "On time",
+                "delay": {
+                    "departure": {
+                        "gateMinutes": 0,
+                        "runwayMinutes": 0
+                    },
+                    "arrival": {
+                        "gateMinutes": 0,
+                        "runwayMinutes": 0,
+                        "hasArrivalTime": true
+                    }
+                },
+                "delayStatus": {
+                    "wording": "On time",
+                    "minutes": 0
+                },
+                "showEst": true,
+                "diverted": false
+            },
+            "eventTimeline": [
+                {
+                    "date1": "Aug 10",
+                    "date2": "10 Aug",
+                    "utcTime": "12:58",
+                    "sortTime": "2022-08-10T12:58:39Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "8:58 am",
+                    "departureAirportTime24": "08:58",
+                    "arrivalAirportTime": "7:58 am",
+                    "arrivalAirportTime24": "07:58",
+                    "title": "Gate Adjustment",
+                    "shortTitle": "Gate Adjust",
+                    "events": [
+                        {
+                            "eventText": "Arrival Gate changed from F22 to F28",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 10",
+                    "date2": "10 Aug",
+                    "utcTime": "12:09",
+                    "sortTime": "2022-08-10T12:09:25Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "8:09 am",
+                    "departureAirportTime24": "08:09",
+                    "arrivalAirportTime": "7:09 am",
+                    "arrivalAirportTime24": "07:09",
+                    "title": "Gate Adjustment",
+                    "shortTitle": "Gate Adjust",
+                    "events": [
+                        {
+                            "eventText": "Baggage changed to 2",
+                            "noAdjustments": true
+                        },
+                        {
+                            "eventText": "Tail Number changed from N432AW to N411ZW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 10",
+                    "date2": "10 Aug",
+                    "utcTime": "12:09",
+                    "sortTime": "2022-08-10T12:09:25Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "8:09 am",
+                    "departureAirportTime24": "08:09",
+                    "arrivalAirportTime": "7:09 am",
+                    "arrivalAirportTime24": "07:09",
+                    "title": "Gate Adjustment",
+                    "shortTitle": "Gate Adjust",
+                    "events": [
+                        {
+                            "eventText": "Arrival Gate changed from F28 to F22",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 10",
+                    "date2": "10 Aug",
+                    "utcTime": "09:30",
+                    "sortTime": "2022-08-10T09:30:24Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "5:30 am",
+                    "departureAirportTime24": "05:30",
+                    "arrivalAirportTime": "4:30 am",
+                    "arrivalAirportTime24": "04:30",
+                    "title": "Gate Adjustment",
+                    "shortTitle": "Gate Adjust",
+                    "events": [
+                        {
+                            "eventText": "Departure Gate changed to B",
+                            "noAdjustments": true
+                        },
+                        {
+                            "eventText": "Tail Number changed from N423AW to N432AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "23:13",
+                    "sortTime": "2022-08-09T23:13:47Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "7:13 pm",
+                    "departureAirportTime24": "19:13",
+                    "arrivalAirportTime": "6:13 pm",
+                    "arrivalAirportTime24": "18:13",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N435AW to N423AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "23:13",
+                    "sortTime": "2022-08-09T23:13:24Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "7:13 pm",
+                    "departureAirportTime24": "19:13",
+                    "arrivalAirportTime": "6:13 pm",
+                    "arrivalAirportTime24": "18:13",
+                    "title": "Gate Adjustment",
+                    "shortTitle": "Gate Adjust",
+                    "events": [
+                        {
+                            "eventText": "Arrival Gate changed from F6 to F28",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "23:13",
+                    "sortTime": "2022-08-09T23:13:22Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "7:13 pm",
+                    "departureAirportTime24": "19:13",
+                    "arrivalAirportTime": "6:13 pm",
+                    "arrivalAirportTime24": "18:13",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N410AW to N435AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "23:13",
+                    "sortTime": "2022-08-09T23:13:20Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "7:13 pm",
+                    "departureAirportTime24": "19:13",
+                    "arrivalAirportTime": "6:13 pm",
+                    "arrivalAirportTime24": "18:13",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N435AW to N410AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "23:13",
+                    "sortTime": "2022-08-09T23:13:20Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "7:13 pm",
+                    "departureAirportTime24": "19:13",
+                    "arrivalAirportTime": "6:13 pm",
+                    "arrivalAirportTime24": "18:13",
+                    "title": "Gate Adjustment",
+                    "shortTitle": "Gate Adjust",
+                    "events": [
+                        {
+                            "eventText": "Arrival Gate changed from F28 to F6",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "22:06",
+                    "sortTime": "2022-08-09T22:06:53Z",
+                    "source": "ASDI",
+                    "departureAirportTime": "6:06 pm",
+                    "departureAirportTime24": "18:06",
+                    "arrivalAirportTime": "5:06 pm",
+                    "arrivalAirportTime24": "17:06",
+                    "title": "Time Adjustment",
+                    "shortTitle": "Time Adjust",
+                    "events": [
+                        {
+                            "changed": "Scheduled Runway Departure changed",
+                            "oldDate": true,
+                            "fromMonth1": " from Aug-10-2022",
+                            "fromMonth0": " from 10-Aug-2022",
+                            "fromTime1": " 6:01",
+                            "fromTime0": " 18:01",
+                            "fromAMPM1": " PM",
+                            "fromAMPM0": " ",
+                            "newDate": true,
+                            "toMonth1": " to Aug-10-2022",
+                            "toMonth0": " to 10-Aug-2022",
+                            "toTime1": " 6:08",
+                            "toTime0": " 18:08",
+                            "toAMPM1": " PM",
+                            "toAMPM0": " "
+                        },
+                        {
+                            "changed": "Scheduled Runway Arrival changed",
+                            "oldDate": true,
+                            "fromMonth1": " from Aug-10-2022",
+                            "fromMonth0": " from 10-Aug-2022",
+                            "fromTime1": " 6:20",
+                            "fromTime0": " 18:20",
+                            "fromAMPM1": " PM",
+                            "fromAMPM0": " ",
+                            "newDate": true,
+                            "toMonth1": " to Aug-10-2022",
+                            "toMonth0": " to 10-Aug-2022",
+                            "toTime1": " 6:44",
+                            "toTime0": " 18:44",
+                            "toAMPM1": " PM",
+                            "toAMPM0": " "
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "22:01",
+                    "sortTime": "2022-08-09T22:01:58Z",
+                    "source": "ASDI",
+                    "departureAirportTime": "6:01 pm",
+                    "departureAirportTime24": "18:01",
+                    "arrivalAirportTime": "5:01 pm",
+                    "arrivalAirportTime24": "17:01",
+                    "title": "Time Adjustment",
+                    "shortTitle": "Time Adjust",
+                    "events": [
+                        {
+                            "changed": "Scheduled Runway Departure changed",
+                            "newDate": true,
+                            "toMonth1": " to Aug-10-2022",
+                            "toMonth0": " to 10-Aug-2022",
+                            "toTime1": " 6:01",
+                            "toTime0": " 18:01",
+                            "toAMPM1": " PM",
+                            "toAMPM0": " "
+                        },
+                        {
+                            "changed": "Scheduled Runway Arrival changed",
+                            "newDate": true,
+                            "toMonth1": " to Aug-10-2022",
+                            "toMonth0": " to 10-Aug-2022",
+                            "toTime1": " 6:20",
+                            "toTime0": " 18:20",
+                            "toAMPM1": " PM",
+                            "toAMPM0": " "
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "15:31",
+                    "sortTime": "2022-08-09T15:31:08Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "11:31 am",
+                    "departureAirportTime24": "11:31",
+                    "arrivalAirportTime": "10:31 am",
+                    "arrivalAirportTime24": "10:31",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N432AW to N435AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "14:19",
+                    "sortTime": "2022-08-09T14:19:57Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "10:19 am",
+                    "departureAirportTime24": "10:19",
+                    "arrivalAirportTime": "9:19 am",
+                    "arrivalAirportTime24": "09:19",
+                    "title": "Gate Adjustment",
+                    "shortTitle": "Gate Adjust",
+                    "events": [
+                        {
+                            "eventText": "Arrival Gate changed from F4 to F28",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "14:12",
+                    "sortTime": "2022-08-09T14:12:49Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "10:12 am",
+                    "departureAirportTime24": "10:12",
+                    "arrivalAirportTime": "9:12 am",
+                    "arrivalAirportTime24": "09:12",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N455AW to N460AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "14:12",
+                    "sortTime": "2022-08-09T14:12:49Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "10:12 am",
+                    "departureAirportTime24": "10:12",
+                    "arrivalAirportTime": "9:12 am",
+                    "arrivalAirportTime24": "09:12",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N460AW to N432AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "12:53",
+                    "sortTime": "2022-08-09T12:53:24Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "8:53 am",
+                    "departureAirportTime24": "08:53",
+                    "arrivalAirportTime": "7:53 am",
+                    "arrivalAirportTime24": "07:53",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N423AW to N455AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "11:26",
+                    "sortTime": "2022-08-09T11:26:24Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "7:26 am",
+                    "departureAirportTime24": "07:26",
+                    "arrivalAirportTime": "6:26 am",
+                    "arrivalAirportTime24": "06:26",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N413AW to N423AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "03:22",
+                    "sortTime": "2022-08-09T03:22:30Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "11:22 pm",
+                    "departureAirportTime24": "23:22",
+                    "arrivalAirportTime": "10:22 pm",
+                    "arrivalAirportTime24": "22:22",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N410AW to N413AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 9",
+                    "date2": "9 Aug",
+                    "utcTime": "03:21",
+                    "sortTime": "2022-08-09T03:21:47Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "11:21 pm",
+                    "departureAirportTime24": "23:21",
+                    "arrivalAirportTime": "10:21 pm",
+                    "arrivalAirportTime24": "22:21",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N470ZW to N410AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 8",
+                    "date2": "8 Aug",
+                    "utcTime": "23:57",
+                    "sortTime": "2022-08-08T23:57:09Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "7:57 pm",
+                    "departureAirportTime24": "19:57",
+                    "arrivalAirportTime": "6:57 pm",
+                    "arrivalAirportTime24": "18:57",
+                    "title": "Gate Adjustment",
+                    "shortTitle": "Gate Adjust",
+                    "events": [
+                        {
+                            "eventText": "Arrival Gate changed to F4",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 8",
+                    "date2": "8 Aug",
+                    "utcTime": "16:00",
+                    "sortTime": "2022-08-08T16:00:11Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "12:00 pm",
+                    "departureAirportTime24": "12:00",
+                    "arrivalAirportTime": "11:00 am",
+                    "arrivalAirportTime24": "11:00",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N416AW to N470ZW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 8",
+                    "date2": "8 Aug",
+                    "utcTime": "15:23",
+                    "sortTime": "2022-08-08T15:23:02Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "11:23 am",
+                    "departureAirportTime24": "11:23",
+                    "arrivalAirportTime": "10:23 am",
+                    "arrivalAirportTime24": "10:23",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N434AW to N416AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 8",
+                    "date2": "8 Aug",
+                    "utcTime": "03:23",
+                    "sortTime": "2022-08-08T03:23:37Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "11:23 pm",
+                    "departureAirportTime24": "23:23",
+                    "arrivalAirportTime": "10:23 pm",
+                    "arrivalAirportTime24": "22:23",
+                    "title": "Equipment Adjustment",
+                    "shortTitle": "Equip Adjust",
+                    "events": [
+                        {
+                            "eventText": "Tail Number changed from N415AW to N434AW",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 8",
+                    "date2": "8 Aug",
+                    "utcTime": "00:06",
+                    "sortTime": "2022-08-08T00:06:32Z",
+                    "source": "Airline Direct",
+                    "departureAirportTime": "8:06 pm",
+                    "departureAirportTime24": "20:06",
+                    "arrivalAirportTime": "7:06 pm",
+                    "arrivalAirportTime24": "19:06",
+                    "title": "Time Adjustment",
+                    "shortTitle": "Time Adjust",
+                    "events": [
+                        {
+                            "changed": "Estimated Gate Departure changed",
+                            "newDate": true,
+                            "toMonth1": " to Aug-10-2022",
+                            "toMonth0": " to 10-Aug-2022",
+                            "toTime1": " 5:59",
+                            "toTime0": " 17:59",
+                            "toAMPM1": " PM",
+                            "toAMPM0": " "
+                        },
+                        {
+                            "changed": "Estimated Gate Arrival changed",
+                            "newDate": true,
+                            "toMonth1": " to Aug-10-2022",
+                            "toMonth0": " to 10-Aug-2022",
+                            "toTime1": " 6:55",
+                            "toTime0": " 18:55",
+                            "toAMPM1": " PM",
+                            "toAMPM0": " "
+                        },
+                        {
+                            "eventText": "Tail Number changed to N415AW",
+                            "noAdjustments": true
+                        },
+                        {
+                            "eventText": "Actual Equipment changed to CR2",
+                            "noAdjustments": true
+                        }
+                    ]
+                },
+                {
+                    "date1": "Aug 7",
+                    "date2": "7 Aug",
+                    "utcTime": "20:44",
+                    "sortTime": "2022-08-07T15:44:53-05:00",
+                    "departureAirportTime": "4:44 pm",
+                    "departureAirportTime24": "16:44",
+                    "arrivalAirportTime": "3:44 pm",
+                    "arrivalAirportTime24": "15:44",
+                    "title": "Record Created",
+                    "shortTitle": "Record Created",
+                    "events": []
+                },
+                {
+                    "date1": "Aug 7",
+                    "date2": "7 Aug",
+                    "utcTime": "20:44",
+                    "sortTime": "2022-08-07T20:44:53Z",
+                    "source": "Innovata",
+                    "departureAirportTime": "4:44 pm",
+                    "departureAirportTime24": "16:44",
+                    "arrivalAirportTime": "3:44 pm",
+                    "arrivalAirportTime24": "15:44",
+                    "title": "Time Adjustment",
+                    "shortTitle": "Time Adjust",
+                    "events": [
+                        {
+                            "changed": "Scheduled Gate Departure changed",
+                            "newDate": true,
+                            "toMonth1": " to Aug-10-2022",
+                            "toMonth0": " to 10-Aug-2022",
+                            "toTime1": " 5:59",
+                            "toTime0": " 17:59",
+                            "toAMPM1": " PM",
+                            "toAMPM0": " "
+                        },
+                        {
+                            "changed": "Scheduled Gate Arrival changed",
+                            "newDate": true,
+                            "toMonth1": " to Aug-10-2022",
+                            "toMonth0": " to 10-Aug-2022",
+                            "toTime1": " 6:55",
+                            "toTime0": " 18:55",
+                            "toAMPM1": " PM",
+                            "toAMPM0": " "
+                        },
+                        {
+                            "eventText": "Arrival Terminal changed to 2",
+                            "noAdjustments": true
+                        },
+                        {
+                            "eventText": "Scheduled Equipment changed to CRJ",
+                            "noAdjustments": true
+                        }
+                    ]
+                }
+            ],
+            "lineInfo": {
+                "flightId": 1104664029,
+                "departureAirport": {
+                    "fs": "SCE",
+                    "iata": "SCE",
+                    "icao": "KUNV",
+                    "name": "University Park Airport",
+                    "city": "State College",
+                    "state": "PA",
+                    "country": "US",
+                    "active": true,
+                    "classification": 4,
+                    "timeZoneRegionName": "America/New_York",
+                    "gate": "B",
+                    "terminal": null,
+                    "times": {
+                        "scheduledGate": {
+                            "time": "5:59",
+                            "ampm": "pm",
+                            "time24": "17:59",
+                            "timezone": "EDT"
+                        },
+                        "estimatedGate": {
+                            "time": "5:59",
+                            "ampm": "pm",
+                            "time24": "17:59",
+                            "timezone": "EDT"
+                        },
+                        "scheduledRunway": {
+                            "time": "6:08",
+                            "ampm": "pm",
+                            "time24": "18:08",
+                            "timezone": "EDT"
+                        }
+                    },
+                    "date": "2022-08-10T17:59:00.000",
+                    "timezoneCode": "EDT"
+                },
+                "arrivalAirport": {
+                    "fs": "ORD",
+                    "iata": "ORD",
+                    "icao": "KORD",
+                    "name": "O'Hare International Airport",
+                    "city": "Chicago",
+                    "state": "IL",
+                    "country": "US",
+                    "active": true,
+                    "classification": 1,
+                    "timeZoneRegionName": "America/Chicago",
+                    "gate": "F28",
+                    "terminal": "2",
+                    "baggage": "2",
+                    "times": {
+                        "scheduledGate": {
+                            "time": "6:55",
+                            "ampm": "pm",
+                            "time24": "18:55",
+                            "timezone": "CDT"
+                        },
+                        "estimatedGate": {
+                            "time": "6:55",
+                            "ampm": "pm",
+                            "time24": "18:55",
+                            "timezone": "CDT"
+                        },
+                        "scheduledRunway": {
+                            "time": "6:44",
+                            "ampm": "pm",
+                            "time24": "18:44",
+                            "timezone": "CDT"
+                        }
+                    },
+                    "date": "2022-08-10T18:55:00.000",
+                    "timezoneCode": "CDT"
+                },
+                "divertedAirport": null,
+                "status": {
+                    "statusCode": "S",
+                    "status": "Scheduled",
+                    "color": "green",
+                    "statusDescription": "On time",
+                    "delay": {
+                        "departure": {
+                            "gateMinutes": 0,
+                            "runwayMinutes": 0
+                        },
+                        "arrival": {
+                            "gateMinutes": 0,
+                            "runwayMinutes": 0,
+                            "hasArrivalTime": true
+                        }
+                    },
+                    "delayStatus": {
+                        "wording": "On time",
+                        "minutes": 0
+                    },
+                    "showEst": true,
+                    "diverted": false
+                },
+                "departureTimes": {
+                    "scheduledGate": {
+                        "time": "5:59",
+                        "ampm": "pm",
+                        "time24": "17:59",
+                        "timezone": "EDT"
+                    },
+                    "estimatedGate": {
+                        "time": "5:59",
+                        "ampm": "pm",
+                        "time24": "17:59",
+                        "timezone": "EDT"
+                    },
+                    "scheduledRunway": {
+                        "time": "6:08",
+                        "ampm": "pm",
+                        "time24": "18:08",
+                        "timezone": "EDT"
+                    }
+                },
+                "arrivalTimes": {
+                    "scheduledGate": {
+                        "time": "6:55",
+                        "ampm": "pm",
+                        "time24": "18:55",
+                        "timezone": "CDT"
+                    },
+                    "estimatedGate": {
+                        "time": "6:55",
+                        "ampm": "pm",
+                        "time24": "18:55",
+                        "timezone": "CDT"
+                    },
+                    "scheduledRunway": {
+                        "time": "6:44",
+                        "ampm": "pm",
+                        "time24": "18:44",
+                        "timezone": "CDT"
+                    }
+                },
+                "url": "/flight-details/UA/3867/2022/8/10/1104664029"
+            },
+            "additionalFlightInfo": {
+                "equipment": {
+                    "tailNumber": "N411ZW",
+                    "title": "Actual",
+                    "iata": "CR2",
+                    "name": "Canadair (Bombardier) Regional Jet 200"
+                },
+                "flightDuration": {
+                    "scheduled": "1h 56m",
+                    "estimated": "1h 56m"
+                }
+            },
+            "flightState": "currentDatePreFlight",
+            "uplines": [],
+            "downlines": []
+        }
+    },
+    "SingleHistoricalFlightStatus": {
+        "loading": false,
+        "loaded": false,
+        "searching": false,
+        "searched": false,
+        "usingFinalCredit": null,
+        "byFlightAirline": {},
+        "airlineByRoute": {},
+        "arrivalAirport": {},
+        "departureAirport": {},
+        "departureDate": "2022-08-08T21:28:13.786Z",
+        "flightNumber": "",
+        "historicalByFlightSearch": "",
+        "historicalByAirportSearch": "",
+        "byFlightSecondaryAction": false,
+        "byAirlineSecondaryAction": false
+    },
+    "Sitemap": {
+        "airports": [],
+        "airlines": [],
+        "loadAttempts": 0,
+        "error": ""
+    },
+    "flick": {
+        "loading": false
+    },
+    "toast": {
+        "toasts": {}
+    },
+    "session": {},
+    "router": {
+        "location": {
+            "pathname": "/flight-details/UA/3867",
+            "search": "",
+            "hash": "",
+            "key": "CUT OUT FOR PRIVACY REASONS"
+        },
+        "action": "POP",
+        "pathname": "/v2/flight-details/UA/3867"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "data": {
+        "responseTime": 1659990035,
+        "flightId": "1104374141",
+        "operatedByFlightNum": "3954",
+        "statusCode": "A",
+        "statusName": "DEPARTED",
+        "statusColor": "#4B9142",
+        "statusAppendKey": "onTime",
+        "statusAppend": "ON-TIME",
+        "flightEquipmentIata": "CR2",
+        "flightEquipmentName": "Canadair (Bombardier) Regional Jet",
+        "airports": {
+            "departure": {
+                "fsCode": "ORD",
+                "name": "O'Hare International Airport",
+                "city": "Chicago",
+                "stateCode": "IL",
+                "countryCode": "US",
+                "countryName": "United States",
+                "localTime": "2022-08-08T15:20:35.456",
+                "latitude": 41.976912,
+                "longitude": -87.904876,
+                "elevationFt": 668,
+                "conditions": "Cloudy",
+                "temperatureCelsius": 23,
+                "conditionIcon": "cloud@2x.png"
+            },
+            "arrival": {
+                "fsCode": "SCE",
+                "name": "University Park Airport",
+                "city": "State College",
+                "stateCode": "PA",
+                "countryCode": "US",
+                "countryName": "United States",
+                "localTime": "2022-08-08T16:20:35.456",
+                "latitude": 40.853721,
+                "longitude": -77.848228,
+                "elevationFt": 1239,
+                "conditions": "Cloudy",
+                "temperatureCelsius": 30,
+                "conditionIcon": "cloud@2x.png"
+            },
+            "diverted": {
+                "fsCode": "",
+                "name": "",
+                "city": "",
+                "stateCode": "",
+                "countryCode": "",
+                "countryName": "",
+                "localTime": "",
+                "latitude": "",
+                "longitude": "",
+                "elevationFt": ""
+            }
+        },
+        "bearing": 97.48334528268376,
+        "heading": 98.35372292603024,
+        "flightStatus": "A",
+        "operationalTimes": {
+            "isActualDeparture": true,
+            "utc": {
+                "departureTime": 1659986940,
+                "departureTimeString": "2022-08-08T19:29:00.000Z",
+                "arrivalTime": 1659992700,
+                "arrivalTimeString": "2022-08-08T21:05:00.000Z",
+                "actualRunwayArrivalTime": null,
+                "actualRunwayArrivalTimeString": null,
+                "actualRunwayDepartureTime": 1659988380,
+                "actualRunwayDepartureTimeString": "2022-08-08T19:53:00.000Z"
+            },
+            "local": {
+                "departureTime": 1659968940,
+                "departureTimeString": "2022-08-08T14:29:00.000",
+                "arrivalTime": 1659978300,
+                "arrivalTimeString": "2022-08-08T17:05:00.000",
+                "actualRunwayArrivalTime": null,
+                "actualRunwayArrivalTimeString": null,
+                "actualRunwayDepartureTime": 1659970380,
+                "actualRunwayDepartureTimeString": "2022-08-08T14:53:00.000"
+            }
+        },
+        "positions": "CUT OUT FOR SPACE REASONS",
+        "miniTracker": {
+            "statusName": "DEPARTED",
+            "flightStatusCode": "A",
+            "utcDepartureTime": 1659986940,
+            "localDepartureTime": 1659968940,
+            "localDepartureTimeString": "2022-08-08T14:29:00.000",
+            "isActualDepartureTime": false,
+            "utcArrivalTime": 1659992700,
+            "localArrivalTime": 1659978300,
+            "localArrivalTimeString": "2022-08-08T17:05:00.000",
+            "isActualArrivalTime": false,
+            "utcActualRunwayArrivalTime": null,
+            "utcActualRunwayDepartureTime": 1659988380,
+            "totalKilometers": 847.3507492876795,
+            "arrivalAirport": "SCE",
+            "departureAirport": "ORD",
+            "kilometersFromDeparture": 215.71343326775437,
+            "kilometersToArrival": 631.788114573287
+        }
+    }
+}

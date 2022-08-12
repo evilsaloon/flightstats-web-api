@@ -1,0 +1,131 @@
+{
+    "props": {
+        "isServer": true,
+        "initialState": {
+            "app": {
+                "user": {},
+                "appHost": "http://www.flightstats.com/v2"
+            },
+            "elasticSearch": {},
+            "flick": {},
+            "flightTracker": {
+                "flight": {},
+                "route": {
+                    "header": {
+                        "date": "11-Aug-2022",
+                        "dateMDY": "Aug-11-2022",
+                        "title": "(SCE) University Park Airport - (ORD) O'Hare International Airport",
+                        "mobileTitle": "SCE - ORD Flights",
+                        "departureAirport": {
+                            "fs": "SCE",
+                            "iata": "SCE",
+                            "icao": "KUNV",
+                            "name": "University Park Airport",
+                            "city": "State College",
+                            "state": "PA",
+                            "country": "US",
+                            "active": true,
+                            "classification": 4,
+                            "timeZoneRegionName": "America/New_York"
+                        },
+                        "arrivalAirport": {
+                            "fs": "ORD",
+                            "iata": "ORD",
+                            "icao": "KORD",
+                            "name": "O'Hare International Airport",
+                            "city": "Chicago",
+                            "state": "IL",
+                            "country": "US",
+                            "active": true,
+                            "classification": 1,
+                            "timeZoneRegionName": "America/Chicago"
+                        }
+                    },
+                    "flights": [
+                        {
+                            "sortTime": "2022-08-11T11:00:00.000Z",
+                            "departureTime": {
+                                "timeAMPM": "7:00AM",
+                                "time24": "07:00"
+                            },
+                            "arrivalTime": {
+                                "timeAMPM": "8:01AM",
+                                "time24": "08:01"
+                            },
+                            "carrier": {
+                                "fs": "UA",
+                                "name": "United Airlines",
+                                "flightNumber": "3833"
+                            },
+                            "operatedBy": "Operated by Air Wisconsin on behalf of United Airlines",
+                            "url": "/flight-tracker/UA/3833?year=2022&month=8&date=11&flightId=1104812497"
+                        }
+                    ],
+                    "showCodeshares": null,
+                    "destOriginTitle": null,
+                    "carrierCode": ""
+                },
+                "arrivalAirport": {
+                    "fs": "ORD",
+                    "iata": "ORD",
+                    "icao": "KORD",
+                    "name": "O'Hare International Airport",
+                    "city": "Chicago",
+                    "state": "IL",
+                    "country": "US",
+                    "active": true,
+                    "classification": 1,
+                    "timeZoneRegionName": "America/Chicago"
+                },
+                "departureAirport": {
+                    "fs": "SCE",
+                    "iata": "SCE",
+                    "icao": "KUNV",
+                    "name": "University Park Airport",
+                    "city": "State College",
+                    "state": "PA",
+                    "country": "US",
+                    "active": true,
+                    "classification": 4,
+                    "timeZoneRegionName": "America/New_York"
+                }
+            },
+            "loading": {
+                "LOAD_FLIGHT_TRACKER_ROUTE": false
+            },
+            "error": {
+                "LOAD_FLIGHT_TRACKER_ROUTE": ""
+            }
+        },
+        "initialProps": {
+            "user": {},
+            "pageProps": {
+                "params": {
+                    "departureAirport": "SCE",
+                    "arrivalAirport": "ORD"
+                },
+                "head": {
+                    "canonical": "/flight-tracker/route/SCE/ORD",
+                    "title": "SCE-ORD Flight Status",
+                    "description": "(SCE to ORD) Track the current status of flights departing from (SCE) University Park Airport and arriving in (ORD) O'Hare International Airport",
+                    "keywords": "flight status, SCE to ORD, route status",
+                    "og:title": "SCE-ORD Flight Status",
+                    "og:description": "(SCE to ORD) Track the current status of flights departing from (SCE) University Park Airport and arriving in (ORD) O'Hare International Airport",
+                    "og:url": "/flight-tracker/route/SCE/ORD"
+                },
+                "carrierFullName": "",
+                "airlineFieldDefaultValue": {},
+                "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+                "hostname": "www.flightstats.com"
+            }
+        }
+    },
+    "page": "/flight-tracker/route",
+    "pathname": "/flight-tracker/route",
+    "query": "FlightTrackerRoute",
+    "buildId": "a8f0bc35-e41a-41f5-a4ba-f630d0aaa891",
+    "assetPrefix": "https://assets.flightstats.com",
+    "nextExport": false,
+    "err": null,
+    "chunks": []
+}

@@ -1,0 +1,91 @@
+{
+    "data": {
+        "header": {
+            "date": "06-Aug-2022",
+            "dateMDY": "Aug-06-2022",
+            "title": "(SCE) University Park Airport Departures",
+            "mobileTitle": "SCE Departures",
+            "departureAirport": {
+                "fs": "SCE",
+                "iata": "SCE",
+                "icao": "KUNV",
+                "name": "University Park Airport",
+                "city": "State College",
+                "state": "PA",
+                "country": "US",
+                "active": true,
+                "classification": 4,
+                "timeZoneRegionName": "America/New_York"
+            }
+        },
+        "destOriginTitle": "Destination",
+        "flights": [
+            {
+                "sortTime": "2022-08-06T10:28:00.000Z",
+                "departureTime": {
+                    "timeAMPM": "6:28AM",
+                    "time24": "06:28"
+                },
+                "arrivalTime": {
+                    "timeAMPM": "7:26AM",
+                    "time24": "07:26"
+                },
+                "carrier": {
+                    "fs": "AA",
+                    "name": "American Airlines",
+                    "flightNumber": "6095"
+                },
+                "operatedBy": "Operated by Piedmont Airlines on behalf of American Airlines",
+                "url": "/flight-tracker/AA/6095?year=2022&month=8&date=6&flightId=1103982191",
+                "airport": {
+                    "fs": "PHL",
+                    "city": "Philadelphia"
+                }
+            },
+            {
+                "sortTime": "2022-08-06T11:00:00.000Z",
+                "departureTime": {
+                    "timeAMPM": "7:00AM",
+                    "time24": "07:00"
+                },
+                "arrivalTime": {
+                    "timeAMPM": "8:01AM",
+                    "time24": "08:01"
+                },
+                "carrier": {
+                    "fs": "UA",
+                    "name": "United Airlines",
+                    "flightNumber": "3833"
+                },
+                "operatedBy": "Operated by Air Wisconsin on behalf of United Airlines",
+                "url": "/flight-tracker/UA/3833?year=2022&month=8&date=6&flightId=1104049794",
+                "airport": {
+                    "fs": "ORD",
+                    "city": "Chicago"
+                }
+            },
+            {
+                "sortTime": "2022-08-06T14:40:00.000Z",
+                "departureTime": {
+                    "timeAMPM": "10:40AM",
+                    "time24": "10:40"
+                },
+                "arrivalTime": {
+                    "timeAMPM": "11:40AM",
+                    "time24": "11:40"
+                },
+                "carrier": {
+                    "fs": "UA",
+                    "name": "United Airlines",
+                    "flightNumber": "4417"
+                },
+                "operatedBy": "Operated by GoJet Airlines on behalf of United Airlines",
+                "url": "/flight-tracker/UA/4417?year=2022&month=8&date=6&flightId=1104050167",
+                "airport": {
+                    "fs": "EWR",
+                    "city": "Newark"
+                }
+            }
+        ]
+    }
+}

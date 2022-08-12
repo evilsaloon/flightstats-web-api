@@ -1,0 +1,899 @@
+{
+    "App": {
+        "csrf": "",
+        "release": "6.1.0",
+        "routeName": "OnTimePerformance",
+        "routeConfig": [
+            {
+                "path": "/account/verify",
+                "name": "VerifyEmail",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/register/plan",
+                "name": "PlanSelection",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/register/create",
+                "name": "CreateAccount",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/register/billing-information",
+                "name": "RegistrationBillingInformation",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/register/completion",
+                "name": "RegistrationCompletion",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/",
+                "name": "Homepage",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/search",
+                "name": "UnifiedSearch",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/search/advanced",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/search",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/departing/:departureAirportCode/:carrier",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/departures/:departureAirportCode/:year/:month/:day/:hour?/:carrier?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/departures/:departureAirportCode/:carrier?",
+                "name": "MultiFlight",
+                "canonical": "/flight-tracker/departures/:departureAirportCode",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/departing/:departureAirportCode/:year?/:month?/:day?/:hour?/:carrier?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/departures",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/arriving/:arrivalAirportCode/:carrier",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/arrivals/:arrivalAirportCode/:year/:month/:day/:hour?/:carrier?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/arrivals/:arrivalAirportCode/:carrier?",
+                "name": "MultiFlight",
+                "canonical": "/flight-tracker/arrivals/:arrivalAirportCode",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/arriving/:arrivalAirportCode/:year?/:month?/:day?/:hour?/:carrier?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/arrivals",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/route/:departureAirportCode/:arrivalAirportCode/:year/:month/:day/:hour?/:carrier?",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/route/:departureAirportCode/:arrivalAirportCode/:carrier?",
+                "name": "MultiFlight",
+                "canonical": "/flight-tracker/route/:departureAirportCode/:arrivalAirportCode",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/route",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber/map",
+                "name": "FlightTrackerMap",
+                "canonical": "/flight-tracker/:carrier/:flightNumber/map",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber/other-stops",
+                "name": "FlightTrackerOtherStops",
+                "canonical": "/flight-tracker/:carrier/:flightNumber/other-stops",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber/:year/:month/:day/:flightId?/map",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber/:year/:month/:day/:flightId?/other-stops",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber/:year/:month/:day/:flightId?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-tracker/:carrier/:flightNumber",
+                "name": "FlightTracker",
+                "exact": "",
+                "canonical": "/flight-tracker/:carrier/:flightNumber",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/search",
+                "name": "DeparturesArrivalsLanding",
+                "exact": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/search/",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/:airportCode/:departureArrival/:year/:month/:day",
+                "name": "DeparturesArrivals",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/:airportCode/:departureArrival",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/subscribe",
+                "name": "SubscriptionMarketing",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving",
+                "exact": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/subscription",
+                "name": "SubscriptionMarketing",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/account/subscribe",
+                "name": "Subscribe",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/account/success",
+                "name": "SubscriptionSuccess",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/account/invoice/:referenceNumber",
+                "name": "ViewPaymentHistoryDetail",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/my-account",
+                "name": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/account/login",
+                "name": "Login",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/account/forgot-password",
+                "name": "ForgotPassword",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/account",
+                "name": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/register",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/map-attributions",
+                "name": "TermsAndCreditsMapAttributions",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-conditions/search",
+                "name": "AirportSearch",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-conditions/search/",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-conditions/:airportCode",
+                "name": "AirportCurrentConditions",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-conditions",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/subscribe",
+                "name": "FlightAlertsSubscriptionMarketing",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/subscribe",
+                "name": "HistoricalSubscriptionMarketing",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/search",
+                "name": "HistoricalSearch",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/departing/:departureAirportCode/:carrier?",
+                "name": "HistoricalMultiFlight",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/departing/:departureAirportCode/:year?/:month?/:day?/:carrier?",
+                "name": "HistoricalMultiFlight",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/arriving/:arrivalAirportCode/:carrier?",
+                "name": "HistoricalMultiFlight",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/arriving/:arrivalAirportCode/:year?/:month?/:day?/:carrier?",
+                "name": "HistoricalMultiFlight",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/route/:departureAirportCode/:arrivalAirportCode/:year?/:month?/:day?/:carrier?",
+                "name": "HistoricalMultiFlight",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/historical-flight/:carrier/:flightNumber/:year/:month/:day/:flightId?",
+                "name": "HistoricalFlightTracker",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airports/departing-arriving/subscribe",
+                "name": "DepArrSubscriptionMarketing",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-details/:carrier/:flightNumber/:year/:month/:day/:flightId?",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-details/:carrier/:flightNumber",
+                "name": "ExtendedDetails",
+                "canonical": "/flight-details/:carrier/:flightNumber",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts",
+                "exact": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/home",
+                "name": "FlightAlerts",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/new/:carrier/:flightNumber/:year/:month/:day/:departureAirport/:arrivalAirport/:trackerReferral?",
+                "name": "NewFlightAlert",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/new/:carrier/:flightNumber/:year/:month/:day",
+                "name": "FlightAlertsSegmentSelect",
+                "exact": "",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/history/home",
+                "name": "FlightAlertsHistory",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-alerts/history/details/:wmaId",
+                "name": "FlightAlertsHistoryDetails",
+                "disallowRobots": true,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-delays",
+                "name": "AirportDelayMap",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-delays/:region",
+                "name": "AirportDelayMap",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/airport-delays/:region?",
+                "name": "AirportDelayMap",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/flight-ontime-performance-rating/:carrierCode/:flightNumber/:departureAirport?/:arrivalAirport?",
+                "name": "OnTimePerformance",
+                "canonical": "/flight-ontime-performance-rating/:carrierCode/:flightNumber",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/global-cancellations-and-delays",
+                "name": "GlobalCancellationsDelays",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": true,
+                "allowRobots": false
+            },
+            {
+                "path": "/sitemap",
+                "name": "SiteMap",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            },
+            {
+                "path": "/blocked",
+                "name": "BlockedAccount",
+                "exact": "",
+                "disallowRobots": false,
+                "allowSitemap": false,
+                "allowRobots": false
+            }
+        ],
+        "appHost": "https://www.flightstats.com/v2",
+        "userAgent": {
+            "isYaBrowser": false,
+            "isAuthoritative": false,
+            "isMobile": false,
+            "isMobileNative": false,
+            "isTablet": false,
+            "isiPad": false,
+            "isiPod": false,
+            "isiPhone": false,
+            "isiPhoneNative": false,
+            "isAndroid": false,
+            "isAndroidNative": false,
+            "isBlackberry": false,
+            "isOpera": false,
+            "isIE": false,
+            "isEdge": false,
+            "isIECompatibilityMode": false,
+            "isSafari": false,
+            "isFirefox": false,
+            "isWebkit": false,
+            "isChrome": false,
+            "isKonqueror": false,
+            "isOmniWeb": false,
+            "isSeaMonkey": false,
+            "isFlock": false,
+            "isAmaya": false,
+            "isPhantomJS": false,
+            "isEpiphany": false,
+            "isDesktop": false,
+            "isWindows": false,
+            "isLinux": false,
+            "isLinux64": false,
+            "isMac": false,
+            "isChromeOS": false,
+            "isBada": false,
+            "isSamsung": false,
+            "isRaspberry": false,
+            "isBot": "python",
+            "isCurl": false,
+            "isAndroidTablet": false,
+            "isWinJs": false,
+            "isKindleFire": false,
+            "isSilk": false,
+            "isCaptive": false,
+            "isSmartTV": false,
+            "isUC": false,
+            "isFacebook": false,
+            "isAlamoFire": false,
+            "isElectron": false,
+            "silkAccelerated": false,
+            "browser": "python-httpx",
+            "version": "0.22.0",
+            "os": "unknown",
+            "platform": "unknown",
+            "geoIp": {},
+            "source": "python-httpx/0.22.0",
+            "isWechat": false
+        },
+        "siteKey": "CUT OUT FOR PRIVACY REASONS",
+        "variants": {}
+    },
+    "Account": {
+        "changePasswordDialogOpen": false,
+        "cityError": null,
+        "countryCodeError": null,
+        "deleteAccountDialogOpen": false,
+        "deleteAccountCheckboxChecked": false,
+        "deletedAccount": false,
+        "finishedProfileFetch": false,
+        "loaded": false,
+        "loginError": null,
+        "loggedIn": false,
+        "nameError": null,
+        "newAdditionalInfo": {},
+        "planSelected": "standard",
+        "postalCodeError": null,
+        "registrationEmail": "",
+        "registrationError": null,
+        "registrationRecaptcha": null,
+        "registrationPassword": "",
+        "registrationPasswordConfirmation": "",
+        "shouldRedirectToOutagePage": false,
+        "streetAddressError": null,
+        "accountAttentionRequired": false,
+        "braintreeClientToken": "",
+        "reasonForUnsubscribing": "",
+        "registrationBillingInformationBtnDisabled": false,
+        "registrationFlowToken": null,
+        "updateSuccess": false,
+        "user": null,
+        "userServiceRegistrationError": null,
+        "serverTime": 1660162658
+    },
+    "AirportCurrentConditions": {
+        "loading": false,
+        "loaded": false,
+        "airport": {
+            "timerOn": false
+        },
+        "loadAttempts": 0,
+        "detailsHeader": {},
+        "forecastWeather": [],
+        "delayIndex": {},
+        "currentWeather": {},
+        "airportCode": "",
+        "airportSearchItem": {},
+        "callSecondaryAction": false
+    },
+    "AirportDelayMap": {
+        "initialLoad": true,
+        "loading": false,
+        "loaded": false,
+        "loadAttempts": 0,
+        "airport": null,
+        "center": null,
+        "spinnerActive": false,
+        "region": "northAmerica",
+        "zoom": null
+    },
+    "AirportDeparturesArrivals": {
+        "dateFieldIndex": 1,
+        "loading": false,
+        "loaded": false,
+        "airport": null,
+        "isArrival": false,
+        "isDeparture": false,
+        "secondaryAction": false
+    },
+    "FlightAlerts": {
+        "loading": false,
+        "loaded": false,
+        "sortColumn": "DATE",
+        "sortOrder": true,
+        "currentResult": [],
+        "couldNotDestroyError": null,
+        "checkFlightsResult": [],
+        "alertPhonePreference": false,
+        "secondaryAction": false,
+        "queryError": ""
+    },
+    "FlightAlertHistory": {
+        "loading": true,
+        "loaded": false,
+        "earliestAlert": "--",
+        "latestAlert": "--",
+        "costForTimePeriod": "--",
+        "keywordFilterResults": null,
+        "waitForInitialProcessing": true,
+        "data": []
+    },
+    "FlightTrackerSearch": {
+        "loading": false,
+        "loaded": false,
+        "airline": null,
+        "byAirportAirline": null,
+        "byAirportDepartureDate": null,
+        "byAirportError": null,
+        "byFlightError": null,
+        "flightNumber": "",
+        "error": null,
+        "departureTime": 6,
+        "departureDate": null,
+        "flight": null,
+        "arrivalAirport": null,
+        "departureAirport": null,
+        "secondarySearchAction": false,
+        "secondaryAdvancedSearchAction": false,
+        "secondaryAdvancedSearchActionAirline": false,
+        "secondaryAdvancedSearchActionByAirportAirline": false,
+        "secondaryAdvancedSearchActionByAirportDepDate": false,
+        "secondaryAdvancedSearchActionDepAirport": false,
+        "secondaryAdvancedSearchActionArrAirport": false,
+        "secondaryAdvancedSearchActionDepDate": false,
+        "secondaryAdvancedSearchActionTime": false
+    },
+    "Modal": {
+        "modalType": null,
+        "modalProps": {}
+    },
+    "MultiFlightTracker": {
+        "loading": false,
+        "loaded": false,
+        "pageIndex": 1,
+        "searchUrl": "",
+        "multiFlightMobileSearchLoading": false,
+        "multiFlightSearchHasMounted": false,
+        "validationError": false
+    },
+    "MultiHistoricalFlightStatus": {
+        "parameters": {},
+        "loading": false,
+        "loaded": false,
+        "pageIndex": 1
+    },
+    "OnTimePerformance": {
+        "error": null,
+        "loadAttempts": 1,
+        "loading": false,
+        "loaded": true,
+        "ratings": [
+            {
+                "airline": {
+                    "fs": "UA",
+                    "iata": "UA",
+                    "icao": "UAL",
+                    "name": "United Airlines",
+                    "active": true,
+                    "category": "I",
+                    "flightNumber": "4730"
+                },
+                "departureAirport": {
+                    "fs": "SCE",
+                    "iata": "SCE",
+                    "icao": "KUNV",
+                    "name": "University Park Airport",
+                    "city": "State College",
+                    "state": "PA",
+                    "country": "US",
+                    "active": true,
+                    "classification": 4,
+                    "timeZoneRegionName": "America/New_York"
+                },
+                "arrivalAirport": {
+                    "fs": "ORD",
+                    "iata": "ORD",
+                    "icao": "KORD",
+                    "name": "O'Hare International Airport",
+                    "city": "Chicago",
+                    "state": "IL",
+                    "country": "US",
+                    "active": true,
+                    "classification": 1,
+                    "timeZoneRegionName": "America/Chicago"
+                },
+                "flightNumber": "3867",
+                "chart": {
+                    "onTime": 45,
+                    "late": 1,
+                    "veryLate": 5,
+                    "excessive": 8,
+                    "cancelled": 1,
+                    "diverted": 1
+                },
+                "statistics": {
+                    "totalObservations": 60,
+                    "delayObservations": 25,
+                    "codeshares": 60,
+                    "mean": 47,
+                    "standardDeviation": 65.4,
+                    "min": 1,
+                    "max": 268
+                },
+                "details": {
+                    "overall": {
+                        "stars": 2.7,
+                        "roundedStars": 2.5,
+                        "appraisal": "Average",
+                        "ontimePercent": 75,
+                        "cumulative": 53,
+                        "delayMean": 47
+                    },
+                    "otp": {
+                        "stars": 4.6,
+                        "roundedStars": 4.5,
+                        "appraisal": "Very Good",
+                        "ontimePercent": 75,
+                        "cumulative": 92
+                    },
+                    "delayPerformance": {
+                        "stars": 0.8,
+                        "roundedStars": 1,
+                        "appraisal": "Poor",
+                        "cumulative": 16,
+                        "delayMean": 47,
+                        "standardDeviation": 65.4
+                    }
+                },
+                "otherStops": [
+                    {
+                        "departureAirport": {
+                            "fs": "ORD",
+                            "iata": "ORD",
+                            "icao": "KORD",
+                            "name": "O'Hare International Airport",
+                            "city": "Chicago",
+                            "state": "IL",
+                            "country": "US",
+                            "active": true,
+                            "classification": 1,
+                            "timeZoneRegionName": "America/Chicago"
+                        },
+                        "arrivalAirport": {
+                            "fs": "GRR",
+                            "iata": "GRR",
+                            "icao": "KGRR",
+                            "name": "Gerald R. Ford International Airport",
+                            "city": "Grand Rapids",
+                            "state": "MI",
+                            "country": "US",
+                            "active": true,
+                            "classification": 3,
+                            "timeZoneRegionName": "America/New_York"
+                        },
+                        "rating": 3.2,
+                        "appraisal": "Average",
+                        "roundedStars": 3
+                    }
+                ]
+            }
+        ]
+    },
+    "SingleFlightTracker": {
+        "airline": {},
+        "loadAttempts": 0,
+        "error": null,
+        "flightTrackerOutOfDateRange": false,
+        "loading": false,
+        "loaded": false,
+        "refreshCount": -1,
+        "segments": [],
+        "attemptedToLoadSegment": false,
+        "singleFlightTrackerError": false,
+        "flight": {},
+        "secondarySearchAction": false,
+        "otherDays": []
+    },
+    "SingleHistoricalFlightStatus": {
+        "loading": false,
+        "loaded": false,
+        "searching": false,
+        "searched": false,
+        "usingFinalCredit": null,
+        "byFlightAirline": {},
+        "airlineByRoute": {},
+        "arrivalAirport": {},
+        "departureAirport": {},
+        "departureDate": "2022-08-08T21:27:53.792Z",
+        "flightNumber": "",
+        "historicalByFlightSearch": "",
+        "historicalByAirportSearch": "",
+        "byFlightSecondaryAction": false,
+        "byAirlineSecondaryAction": false
+    },
+    "Sitemap": {
+        "airports": [],
+        "airlines": [],
+        "loadAttempts": 0,
+        "error": ""
+    },
+    "flick": {
+        "loading": false
+    },
+    "toast": {
+        "toasts": {}
+    },
+    "session": {},
+    "router": {
+        "location": {
+            "pathname": "/flight-ontime-performance-rating/UA/3867/SCE/ORD",
+            "search": "",
+            "hash": "",
+            "key": "exijet"
+        },
+        "action": "POP",
+        "pathname": "/v2/flight-ontime-performance-rating/UA/3867/SCE/ORD"
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "data": [{
+            "date1": "05-Aug",
+            "date2": "Aug-05",
+            "day": "Friday",
+            "year": "2022",
+            "flights": [{
+                "arrivalAirport": {
+                    "city": "Chicago",
+                    "fs": "ORD",
+                    "iata": "ORD",
+                    "name": "O'Hare International Airport",
+                    "state": "IL",
+                    "country": "US"
+                },
+                "arrivalTime": "6:55",
+                "arrivalTimeAmPm": "PM",
+                "arrivalTime24": "18:55",
+                "arrivalTimezone": "CDT",
+                "departureAirport": {
+                    "city": "State College",
+                    "fs": "SCE",
+                    "iata": "SCE",
+                    "name": "University Park Airport",
+                    "state": "PA",
+                    "country": "US"
+                },
+                "departureTime": "5:59",
+                "departureTimeAmPm": "PM",
+                "departureTime24": "17:59",
+                "departureTimezone": "EDT",
+                "url": "/flight-tracker/UA/3867?year=2022&month=08&date=05&flightId=1103904930",
+                "sortTime": "2022-08-05T21:59:00.000Z"
+            }]
+        },
+        {
+            "date1": "06-Aug",
+            "date2": "Aug-06",
+            "day": "Saturday",
+            "year": "2022",
+            "flights": [{
+                "arrivalAirport": {
+                    "city": "Chicago",
+                    "fs": "ORD",
+                    "iata": "ORD",
+                    "name": "O'Hare International Airport",
+                    "state": "IL",
+                    "country": "US"
+                },
+                "arrivalTime": "6:55",
+                "arrivalTimeAmPm": "PM",
+                "arrivalTime24": "18:55",
+                "arrivalTimezone": "CDT",
+                "departureAirport": {
+                    "city": "State College",
+                    "fs": "SCE",
+                    "iata": "SCE",
+                    "name": "University Park Airport",
+                    "state": "PA",
+                    "country": "US"
+                },
+                "departureTime": "5:59",
+                "departureTimeAmPm": "PM",
+                "departureTime24": "17:59",
+                "departureTimezone": "EDT",
+                "url": "/flight-tracker/UA/3867?year=2022&month=08&date=06&flightId=1104049767",
+                "sortTime": "2022-08-06T21:59:00.000Z"
+            }]
+        },
+        {
+            "date1": "07-Aug",
+            "date2": "Aug-07",
+            "day": "Sunday",
+            "year": "2022",
+            "flights": [{
+                "arrivalAirport": {
+                    "city": "Chicago",
+                    "fs": "ORD",
+                    "iata": "ORD",
+                    "name": "O'Hare International Airport",
+                    "state": "IL",
+                    "country": "US"
+                },
+                "arrivalTime": "6:55",
+                "arrivalTimeAmPm": "PM",
+                "arrivalTime24": "18:55",
+                "arrivalTimezone": "CDT",
+                "departureAirport": {
+                    "city": "State College",
+                    "fs": "SCE",
+                    "iata": "SCE",
+                    "name": "University Park Airport",
+                    "state": "PA",
+                    "country": "US"
+                },
+                "departureTime": "5:59",
+                "departureTimeAmPm": "PM",
+                "departureTime24": "17:59",
+                "departureTimezone": "EDT",
+                "url": "/flight-tracker/UA/3867?year=2022&month=08&date=07&flightId=1104218407",
+                "sortTime": "2022-08-07T21:59:00.000Z"
+            }]
+        },
+        {
+            "date1": "08-Aug",
+            "date2": "Aug-08",
+            "day": "Monday",
+            "year": "2022",
+            "flights": [{
+                "arrivalAirport": {
+                    "city": "Chicago",
+                    "fs": "ORD",
+                    "iata": "ORD",
+                    "name": "O'Hare International Airport",
+                    "state": "IL",
+                    "country": "US"
+                },
+                "arrivalTime": "6:55",
+                "arrivalTimeAmPm": "PM",
+                "arrivalTime24": "18:55",
+                "arrivalTimezone": "CDT",
+                "departureAirport": {
+                    "city": "State College",
+                    "fs": "SCE",
+                    "iata": "SCE",
+                    "name": "University Park Airport",
+                    "state": "PA",
+                    "country": "US"
+                },
+                "departureTime": "5:59",
+                "departureTimeAmPm": "PM",
+                "departureTime24": "17:59",
+                "departureTimezone": "EDT",
+                "url": "/flight-tracker/UA/3867?year=2022&month=08&date=08&flightId=1104374082",
+                "sortTime": "2022-08-08T21:59:00.000Z"
+            }]
+        },
+        {
+            "date1": "09-Aug",
+            "date2": "Aug-09",
+            "day": "Tuesday",
+            "year": "2022",
+            "flights": [{
+                "arrivalAirport": {
+                    "city": "Chicago",
+                    "fs": "ORD",
+                    "iata": "ORD",
+                    "name": "O'Hare International Airport",
+                    "state": "IL",
+                    "country": "US"
+                },
+                "arrivalTime": "6:55",
+                "arrivalTimeAmPm": "PM",
+                "arrivalTime24": "18:55",
+                "arrivalTimezone": "CDT",
+                "departureAirport": {
+                    "city": "State College",
+                    "fs": "SCE",
+                    "iata": "SCE",
+                    "name": "University Park Airport",
+                    "state": "PA",
+                    "country": "US"
+                },
+                "departureTime": "5:59",
+                "departureTimeAmPm": "PM",
+                "departureTime24": "17:59",
+                "departureTimezone": "EDT",
+                "url": "/flight-tracker/UA/3867?year=2022&month=08&date=09&flightId=1104516048",
+                "sortTime": "2022-08-09T21:59:00.000Z"
+            }]
+        },
+        {
+            "date1": "10-Aug",
+            "date2": "Aug-10",
+            "day": "Wednesday",
+            "year": "2022",
+            "flights": [{
+                "arrivalAirport": {
+                    "city": "Chicago",
+                    "fs": "ORD",
+                    "iata": "ORD",
+                    "name": "O'Hare International Airport",
+                    "state": "IL",
+                    "country": "US"
+                },
+                "arrivalTime": "6:55",
+                "arrivalTimeAmPm": "PM",
+                "arrivalTime24": "18:55",
+                "arrivalTimezone": "CDT",
+                "departureAirport": {
+                    "city": "State College",
+                    "fs": "SCE",
+                    "iata": "SCE",
+                    "name": "University Park Airport",
+                    "state": "PA",
+                    "country": "US"
+                },
+                "departureTime": "5:59",
+                "departureTimeAmPm": "PM",
+                "departureTime24": "17:59",
+                "departureTimezone": "EDT",
+                "url": "/flight-tracker/UA/3867?year=2022&month=08&date=10&flightId=1104664029",
+                "sortTime": "2022-08-10T21:59:00.000Z"
+            }]
+        },
+        {
+            "date1": "11-Aug",
+            "date2": "Aug-11",
+            "day": "Thursday",
+            "year": "2022",
+            "flights": []
+        }
+    ]
+}

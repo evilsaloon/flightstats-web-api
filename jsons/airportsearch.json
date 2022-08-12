@@ -1,0 +1,171 @@
+[{
+        "_index": "airports_clio",
+        "_type": "airport",
+        "_id": "41G",
+        "_score": 0,
+        "_source": {
+            "fs": "41G",
+            "iata": "",
+            "icao": "",
+            "name": "University",
+            "classification": 0.2,
+            "city": "Bath, MI, US",
+            "isActive": "true",
+            "cityCode": "",
+            "countryCode": "US"
+        }
+    },
+    {
+        "_index": "airports_clio",
+        "_type": "airport",
+        "_id": "SCE",
+        "_score": 0,
+        "_source": {
+            "fs": "SCE",
+            "iata": "SCE",
+            "icao": "KUNV",
+            "name": "University Park Airport",
+            "classification": 0.25,
+            "city": "State College, PA, US",
+            "isActive": "true",
+            "cityCode": "SCE",
+            "countryCode": "US"
+        }
+    },
+    {
+        "_index": "airports_clio",
+        "_type": "airport",
+        "_id": "AUO",
+        "_score": 0,
+        "_source": {
+            "fs": "AUO",
+            "iata": "AUO",
+            "icao": "KAUO",
+            "name": "Auburn University Regional Airport",
+            "classification": 0.25,
+            "city": "Auburn, AL, US",
+            "isActive": "true",
+            "cityCode": "AUO",
+            "countryCode": "US"
+        }
+    },
+    {
+        "_index": "airports_clio",
+        "_type": "airport",
+        "_id": "C20",
+        "_score": 0,
+        "_source": {
+            "fs": "C20",
+            "iata": "",
+            "icao": "",
+            "name": "Andrews University",
+            "classification": 0.2,
+            "city": "Berrien Springs, MI, US",
+            "isActive": "true",
+            "cityCode": "",
+            "countryCode": "US"
+        }
+    },
+    {
+        "_index": "airports_clio",
+        "_type": "airport",
+        "_id": "OXD",
+        "_score": 0,
+        "_source": {
+            "fs": "OXD",
+            "iata": "OXD",
+            "icao": "KOXD",
+            "name": "Miami University Airport",
+            "classification": 0.2,
+            "city": "Oxford, OH, US",
+            "isActive": "true",
+            "cityCode": "OXD",
+            "countryCode": "US"
+        }
+    },
+    {
+        "_index": "airports_clio",
+        "_type": "airport",
+        "_id": "OSU",
+        "_score": 0,
+        "_source": {
+            "fs": "OSU",
+            "iata": "OSU",
+            "icao": "KOSU",
+            "name": "Ohio State University Airport",
+            "classification": 0.25,
+            "city": "Columbus, OH, US",
+            "isActive": "true",
+            "cityCode": "CMH",
+            "countryCode": "US"
+        }
+    },
+    {
+        "_index": "airports_clio",
+        "_type": "airport",
+        "_id": "LAF",
+        "_score": 0,
+        "_source": {
+            "fs": "LAF",
+            "iata": "LAF",
+            "icao": "KLAF",
+            "name": "Purdue University Airport",
+            "classification": 0.25,
+            "city": "Lafayette, IN, US",
+            "isActive": "true",
+            "cityCode": "LAF",
+            "countryCode": "US"
+        }
+    },
+    {
+        "_index": "airports_clio",
+        "_type": "airport",
+        "_id": "LOT",
+        "_score": 0,
+        "_source": {
+            "fs": "LOT",
+            "iata": "LOT",
+            "icao": "KLOT",
+            "name": "Lewis University Airport",
+            "classification": 0.25,
+            "city": "Romeoville, IL, US",
+            "isActive": "true",
+            "cityCode": "LOT",
+            "countryCode": "US"
+        }
+    },
+    {
+        "_index": "airports_clio",
+        "_type": "airport",
+        "_id": "0O5",
+        "_score": 0,
+        "_source": {
+            "fs": "0O5",
+            "iata": "",
+            "icao": "",
+            "name": "University Airport",
+            "classification": 0.2,
+            "city": "Davis, CA, US",
+            "isActive": "true",
+            "cityCode": "",
+            "countryCode": "US"
+        }
+    },
+    {
+        "_index": "airports_clio",
+        "_type": "airport",
+        "_id": "1G3",
+        "_score": 0,
+        "_source": {
+            "fs": "1G3",
+            "iata": "",
+            "icao": "",
+            "name": "Kent State University Airport",
+            "classification": 0.2,
+            "city": "Kent, OH, US",
+            "isActive": "true",
+            "cityCode": "",
+            "countryCode": "US"
+        }
+    }
+]

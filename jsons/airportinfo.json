@@ -1,0 +1,107 @@
+{
+    "detailsHeader": {
+        "code": "SCE",
+        "name": "University Park Airport",
+        "addressLine2": "State College, US",
+        "city": "State College",
+        "countryCode": "US",
+        "currentDate": "08-Aug-2022",
+        "currentTime": "17:30",
+        "currentDateTime": "2022-08-08T17:30:37Z",
+        "timeZoneRegionName": "America/New_York",
+        "currentDateMDY": "Aug-08-2022",
+        "currentTimeAMPM": "5:30 PM",
+        "stateCode": "PA",
+        "timeZone": "EDT",
+        "latitude": 40.853721,
+        "longitude": -77.848228
+    },
+    "delayIndex": {
+        "observed": true,
+        "score": 2.75,
+        "status": "Moderate",
+        "trend": "Increasing",
+        "lastUpdated": "Last updated over an hour ago"
+    },
+    "currentWeather": {
+        "tempF": 84,
+        "tempC": 29,
+        "wind": {
+            "knots": 10,
+            "mph": 12,
+            "kph": 19
+        },
+        "direction": 320,
+        "visibility": {
+            "miles": 10,
+            "km": 16
+        },
+        "hideCurrentWeatherConditionsCard": false,
+        "sky": "Broken clouds",
+        "icon": "rain"
+    },
+    "forecastWeather": [{
+        "date": "08-Aug-2022",
+        "dateMDY": "Aug-08-2022",
+        "day1": "Monday",
+        "des1": "Mostly sunny. Highs around 80.",
+        "icon": "sun",
+        "day2": "Tonight",
+        "des2": "Mostly cloudy with a chance of showers and thunderstorms this evening, then partly cloudy after midnight. Warm with lows in the lower 70s. Southwest winds 5 to 10 mph. Chance of rain 30 percent.",
+        "icon2": "stormy"
+    }, {
+        "date": "09-Aug-2022",
+        "dateMDY": "Aug-09-2022",
+        "day1": "Tuesday",
+        "des1": "Mostly sunny with a slight chance of showers and thunderstorms in the morning, then mostly cloudy with showers and thunderstorms likely in the afternoon. Locally heavy rainfall possible in the afternoon. Humid with highs in the mid 80s. West winds 5 to 10 mph. Chance of rain 70 percent.",
+        "icon": "stormy",
+        "day2": "Tuesday Night",
+        "des2": "Mostly cloudy. Showers and thunderstorms likely in the evening. Humid with lows in the mid 60s. Northwest winds 5 to 10 mph. Chance of rain 70 percent.",
+        "icon2": "stormy"
+    }, {
+        "date": "10-Aug-2022",
+        "dateMDY": "Aug-10-2022",
+        "day1": "Wednesday",
+        "des1": "Partly sunny with a chance of showers. A chance of thunderstorms in the afternoon. Humid with highs in the lower 80s. Northwest winds around 5 mph. Chance of rain 40 percent.",
+        "icon": "stormy",
+        "day2": "Wednesday Night",
+        "des2": "Partly cloudy. A chance of showers and thunderstorms in the evening. Lows around 60. Northwest winds around 5 mph. Chance of rain 40 percent.",
+        "icon2": "stormy"
+    }, {
+        "date": "11-Aug-2022",
+        "dateMDY": "Aug-11-2022",
+        "day1": "Thursday",
+        "des1": "Sunny. Highs in the lower 80s.",
+        "icon": "sun",
+        "day2": "Thursday Night",
+        "des2": "Partly cloudy in the evening, then clearing. Lows in the mid 50s.",
+        "icon2": "cloudy"
+    }, {
+        "date": "12-Aug-2022",
+        "dateMDY": "Aug-12-2022",
+        "day1": "Friday",
+        "des1": "Sunny. Highs in the mid 70s.",
+        "icon": "sun",
+        "day2": "Friday Night",
+        "des2": "Mostly clear. Lows around 50.",
+        "icon2": "partlyCloudyNight"
+    }, {
+        "date": "13-Aug-2022",
+        "dateMDY": "Aug-13-2022",
+        "day1": "Saturday",
+        "des1": "Sunny. Highs in the upper 70s.",
+        "icon": "sun",
+        "day2": "Saturday Night",
+        "des2": "Mostly clear in the evening, then becoming partly cloudy. Lows in the lower 50s.",
+        "icon2": "cloudy"
+    }, {
+        "date": "14-Aug-2022",
+        "dateMDY": "Aug-14-2022",
+        "day1": "Sunday",
+        "des1": "Mostly sunny. Highs around 80.",
+        "icon": "sun",
+        "day2": "Sunday Night",
+        "des2": "Partly cloudy. Lows in the mid 50s.",
+        "icon2": "cloudy"
+    }]
+}
