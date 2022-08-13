@@ -1,10 +1,10 @@
 {
     "data": {
-        "responseTime": 1659990035,
+        "responseTime": 1660421462,
         "flightId": "1104374141",
         "operatedByFlightNum": "3954",
-        "statusCode": "A",
-        "statusName": "DEPARTED",
+        "statusCode": "L",
+        "statusName": "LANDED",
         "statusColor": "#4B9142",
         "statusAppendKey": "onTime",
         "statusAppend": "ON-TIME",
@@ -18,12 +18,12 @@
                 "stateCode": "IL",
                 "countryCode": "US",
                 "countryName": "United States",
-                "localTime": "2022-08-08T15:20:35.456",
+                "localTime": "2022-08-13T15:11:02.278",
                 "latitude": 41.976912,
                 "longitude": -87.904876,
                 "elevationFt": 668,
                 "conditions": "Cloudy",
-                "temperatureCelsius": 23,
+                "temperatureCelsius": 26,
                 "conditionIcon": "cloud@2x.png"
             },
             "arrival": {
@@ -33,13 +33,13 @@
                 "stateCode": "PA",
                 "countryCode": "US",
                 "countryName": "United States",
-                "localTime": "2022-08-08T16:20:35.456",
+                "localTime": "2022-08-13T16:11:02.278",
                 "latitude": 40.853721,
                 "longitude": -77.848228,
                 "elevationFt": 1239,
-                "conditions": "Cloudy",
-                "temperatureCelsius": 30,
-                "conditionIcon": "cloud@2x.png"
+                "conditions": "Mostly Clear",
+                "temperatureCelsius": 26,
+                "conditionIcon": "cloud-sun@2x.png"
             },
             "diverted": {
                 "fsCode": "",
@@ -54,51 +54,725 @@
                 "elevationFt": ""
             }
         },
-        "bearing": 97.48334528268376,
-        "heading": 98.35372292603024,
-        "flightStatus": "A",
+        "bearing": 74.68418982110728,
+        "heading": 254.7337702168134,
+        "flightStatus": "L",
         "operationalTimes": {
             "isActualDeparture": true,
+            "isActualArrival": true,
             "utc": {
                 "departureTime": 1659986940,
                 "departureTimeString": "2022-08-08T19:29:00.000Z",
-                "arrivalTime": 1659992700,
-                "arrivalTimeString": "2022-08-08T21:05:00.000Z",
-                "actualRunwayArrivalTime": null,
-                "actualRunwayArrivalTimeString": null,
+                "arrivalTime": 1659993540,
+                "arrivalTimeString": "2022-08-08T21:19:00.000Z",
+                "actualRunwayArrivalTime": 1659993000,
+                "actualRunwayArrivalTimeString": "2022-08-08T21:10:00.000Z",
                 "actualRunwayDepartureTime": 1659988380,
                 "actualRunwayDepartureTimeString": "2022-08-08T19:53:00.000Z"
             },
             "local": {
                 "departureTime": 1659968940,
                 "departureTimeString": "2022-08-08T14:29:00.000",
-                "arrivalTime": 1659978300,
-                "arrivalTimeString": "2022-08-08T17:05:00.000",
-                "actualRunwayArrivalTime": null,
-                "actualRunwayArrivalTimeString": null,
+                "arrivalTime": 1659979140,
+                "arrivalTimeString": "2022-08-08T17:19:00.000",
+                "actualRunwayArrivalTime": 1659978600,
+                "actualRunwayArrivalTimeString": "2022-08-08T17:10:00.000",
                 "actualRunwayDepartureTime": 1659970380,
                 "actualRunwayDepartureTimeString": "2022-08-08T14:53:00.000"
             }
         },
-        "positions": "CUT OUT FOR SPACE REASONS",
+        "positions": [
+            {
+                "lon": -77.8923,
+                "lat": 40.8446,
+                "speedMph": 359,
+                "altitudeFt": 1239,
+                "source": "derived",
+                "date": "2022-08-08T21:10:36.142Z"
+            },
+            {
+                "lon": -77.8386,
+                "lat": 40.8557,
+                "speedMph": 148,
+                "altitudeFt": 1258,
+                "source": "derived",
+                "date": "2022-08-08T21:10:33.792Z"
+            },
+            {
+                "lon": -77.8001,
+                "lat": 40.8739,
+                "speedMph": 316,
+                "altitudeFt": 1568,
+                "source": "derived",
+                "date": "2022-08-08T21:09:35.902Z"
+            },
+            {
+                "lon": -77.7483,
+                "lat": 40.9013,
+                "speedMph": 293,
+                "altitudeFt": 2323,
+                "source": "derived",
+                "date": "2022-08-08T21:08:35.890Z"
+            },
+            {
+                "lon": -77.6981,
+                "lat": 40.931,
+                "speedMph": 237,
+                "altitudeFt": 3092,
+                "source": "derived",
+                "date": "2022-08-08T21:07:35.873Z"
+            },
+            {
+                "lon": -77.6593,
+                "lat": 40.9613,
+                "speedMph": 166,
+                "altitudeFt": 3891,
+                "source": "derived",
+                "date": "2022-08-08T21:06:35.831Z"
+            },
+            {
+                "lon": -77.6469,
+                "lat": 40.9896,
+                "speedMph": 173,
+                "altitudeFt": 4611,
+                "source": "derived",
+                "date": "2022-08-08T21:05:35.796Z"
+            },
+            {
+                "lon": -77.6476,
+                "lat": 41.0406,
+                "speedMph": 414,
+                "altitudeFt": 6284,
+                "source": "derived",
+                "date": "2022-08-08T21:04:35.540Z"
+            },
+            {
+                "lon": -77.7751,
+                "lat": 41.0171,
+                "speedMph": 393,
+                "altitudeFt": 7552,
+                "source": "derived",
+                "date": "2022-08-08T21:03:35.456Z"
+            },
+            {
+                "lon": -77.8952,
+                "lat": 40.9944,
+                "speedMph": 370,
+                "altitudeFt": 9682,
+                "source": "derived",
+                "date": "2022-08-08T21:02:35.427Z"
+            },
+            {
+                "lon": -78.0173,
+                "lat": 40.9712,
+                "speedMph": 306,
+                "altitudeFt": 10722,
+                "source": "derived",
+                "date": "2022-08-08T21:01:35.400Z"
+            },
+            {
+                "lon": -78.1175,
+                "lat": 40.9654,
+                "speedMph": 324,
+                "altitudeFt": 11183,
+                "source": "derived",
+                "date": "2022-08-08T21:00:35.194Z"
+            },
+            {
+                "lon": -78.2265,
+                "lat": 40.9624,
+                "speedMph": 343,
+                "altitudeFt": 11628,
+                "source": "derived",
+                "date": "2022-08-08T20:59:35.150Z"
+            },
+            {
+                "lon": -78.3386,
+                "lat": 40.9819,
+                "speedMph": 383,
+                "altitudeFt": 12333,
+                "source": "derived",
+                "date": "2022-08-08T20:58:35.118Z"
+            },
+            {
+                "lon": -78.4579,
+                "lat": 41.0106,
+                "speedMph": 408,
+                "altitudeFt": 12436,
+                "source": "derived",
+                "date": "2022-08-08T20:57:35.096Z"
+            },
+            {
+                "lon": -78.5965,
+                "lat": 41.0264,
+                "speedMph": 406,
+                "altitudeFt": 11820,
+                "source": "derived",
+                "date": "2022-08-08T20:56:35.039Z"
+            },
+            {
+                "lon": -78.7241,
+                "lat": 41.0556,
+                "speedMph": 435,
+                "altitudeFt": 12983,
+                "source": "derived",
+                "date": "2022-08-08T20:55:35.021Z"
+            },
+            {
+                "lon": -78.8682,
+                "lat": 41.084,
+                "speedMph": 434,
+                "altitudeFt": 13554,
+                "source": "derived",
+                "date": "2022-08-08T20:54:34.951Z"
+            },
+            {
+                "lon": -79.012,
+                "lat": 41.0883,
+                "speedMph": 500,
+                "altitudeFt": 15414,
+                "source": "derived",
+                "date": "2022-08-08T20:53:34.931Z"
+            },
+            {
+                "lon": -79.1621,
+                "lat": 41.0937,
+                "speedMph": 521,
+                "altitudeFt": 17277,
+                "source": "derived",
+                "date": "2022-08-08T20:52:34.868Z"
+            },
+            {
+                "lon": -79.3323,
+                "lat": 41.0942,
+                "speedMph": 457,
+                "altitudeFt": 19145,
+                "source": "derived",
+                "date": "2022-08-08T20:51:34.834Z"
+            },
+            {
+                "lon": -79.4813,
+                "lat": 41.1085,
+                "speedMph": 450,
+                "altitudeFt": 21040,
+                "source": "derived",
+                "date": "2022-08-08T20:50:34.790Z"
+            },
+            {
+                "lon": -79.6249,
+                "lat": 41.1302,
+                "speedMph": 473,
+                "altitudeFt": 22706,
+                "source": "derived",
+                "date": "2022-08-08T20:49:34.772Z"
+            },
+            {
+                "lon": -79.7764,
+                "lat": 41.1524,
+                "speedMph": 511,
+                "altitudeFt": 23726,
+                "source": "derived",
+                "date": "2022-08-08T20:48:34.761Z"
+            },
+            {
+                "lon": -79.9379,
+                "lat": 41.176,
+                "speedMph": 540,
+                "altitudeFt": 24693,
+                "source": "derived",
+                "date": "2022-08-08T20:47:34.714Z"
+            },
+            {
+                "lon": -80.0834,
+                "lat": 41.1975,
+                "speedMph": 604,
+                "altitudeFt": 26343,
+                "source": "derived",
+                "date": "2022-08-08T20:46:34.685Z"
+            },
+            {
+                "lon": -80.2719,
+                "lat": 41.2249,
+                "speedMph": 544,
+                "altitudeFt": 26650,
+                "source": "derived",
+                "date": "2022-08-08T20:45:34.657Z"
+            },
+            {
+                "lon": -80.4475,
+                "lat": 41.2501,
+                "speedMph": 509,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:44:34.640Z"
+            },
+            {
+                "lon": -80.6094,
+                "lat": 41.2729,
+                "speedMph": 531,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:43:34.559Z"
+            },
+            {
+                "lon": -80.7715,
+                "lat": 41.2954,
+                "speedMph": 506,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:42:34.512Z"
+            },
+            {
+                "lon": -80.9531,
+                "lat": 41.3204,
+                "speedMph": 458,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:41:34.352Z"
+            },
+            {
+                "lon": -81.1005,
+                "lat": 41.3406,
+                "speedMph": 488,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:40:34.339Z"
+            },
+            {
+                "lon": -81.2353,
+                "lat": 41.359,
+                "speedMph": 555,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:39:34.303Z"
+            },
+            {
+                "lon": -81.4091,
+                "lat": 41.3822,
+                "speedMph": 544,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:38:34.200Z"
+            },
+            {
+                "lon": -81.585,
+                "lat": 41.4053,
+                "speedMph": 511,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:37:34.149Z"
+            },
+            {
+                "lon": -81.7439,
+                "lat": 41.4263,
+                "speedMph": 519,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:36:34.111Z"
+            },
+            {
+                "lon": -81.9089,
+                "lat": 41.4479,
+                "speedMph": 511,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:35:34.063Z"
+            },
+            {
+                "lon": -82.0725,
+                "lat": 41.4686,
+                "speedMph": 502,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:34:34.034Z"
+            },
+            {
+                "lon": -82.2288,
+                "lat": 41.4901,
+                "speedMph": 505,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:33:34.022Z"
+            },
+            {
+                "lon": -82.3891,
+                "lat": 41.5097,
+                "speedMph": 502,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:32:34.012Z"
+            },
+            {
+                "lon": -82.5504,
+                "lat": 41.5217,
+                "speedMph": 504,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:31:33.959Z"
+            },
+            {
+                "lon": -82.7077,
+                "lat": 41.5399,
+                "speedMph": 483,
+                "altitudeFt": 27000,
+                "source": "derived",
+                "date": "2022-08-08T20:30:33.940Z"
+            },
+            {
+                "lon": -82.8629,
+                "lat": 41.5627,
+                "speedMph": 494,
+                "altitudeFt": 27058,
+                "source": "derived",
+                "date": "2022-08-08T20:29:33.907Z"
+            },
+            {
+                "lon": -83.019,
+                "lat": 41.5894,
+                "speedMph": 502,
+                "altitudeFt": 27051,
+                "source": "derived",
+                "date": "2022-08-08T20:28:33.802Z"
+            },
+            {
+                "lon": -83.1739,
+                "lat": 41.6244,
+                "speedMph": 514,
+                "altitudeFt": 27036,
+                "source": "derived",
+                "date": "2022-08-08T20:27:33.756Z"
+            },
+            {
+                "lon": -83.329,
+                "lat": 41.6668,
+                "speedMph": 528,
+                "altitudeFt": 27091,
+                "source": "derived",
+                "date": "2022-08-08T20:26:33.669Z"
+            },
+            {
+                "lon": -83.4868,
+                "lat": 41.7055,
+                "speedMph": 540,
+                "altitudeFt": 27017,
+                "source": "derived",
+                "date": "2022-08-08T20:25:33.624Z"
+            },
+            {
+                "lon": -83.6542,
+                "lat": 41.7418,
+                "speedMph": 500,
+                "altitudeFt": 26813,
+                "source": "derived",
+                "date": "2022-08-08T20:24:33.540Z"
+            },
+            {
+                "lon": -83.8076,
+                "lat": 41.769,
+                "speedMph": 478,
+                "altitudeFt": 26496,
+                "source": "derived",
+                "date": "2022-08-08T20:23:33.518Z"
+            },
+            {
+                "lon": -83.967,
+                "lat": 41.7897,
+                "speedMph": 499,
+                "altitudeFt": 26000,
+                "source": "derived",
+                "date": "2022-08-08T20:22:33.490Z"
+            },
+            {
+                "lon": -84.1249,
+                "lat": 41.807,
+                "speedMph": 527,
+                "altitudeFt": 25466,
+                "source": "derived",
+                "date": "2022-08-08T20:21:33.442Z"
+            },
+            {
+                "lon": -84.2936,
+                "lat": 41.824,
+                "speedMph": 525,
+                "altitudeFt": 24980,
+                "source": "derived",
+                "date": "2022-08-08T20:20:33.425Z"
+            },
+            {
+                "lon": -84.4567,
+                "lat": 41.8343,
+                "speedMph": 541,
+                "altitudeFt": 24456,
+                "source": "derived",
+                "date": "2022-08-08T20:19:33.354Z"
+            },
+            {
+                "lon": -84.6381,
+                "lat": 41.8491,
+                "speedMph": 517,
+                "altitudeFt": 23927,
+                "source": "derived",
+                "date": "2022-08-08T20:18:33.306Z"
+            },
+            {
+                "lon": -84.8047,
+                "lat": 41.8385,
+                "speedMph": 514,
+                "altitudeFt": 23487,
+                "source": "derived",
+                "date": "2022-08-08T20:17:33.087Z"
+            },
+            {
+                "lon": -84.9689,
+                "lat": 41.8344,
+                "speedMph": 522,
+                "altitudeFt": 23085,
+                "source": "derived",
+                "date": "2022-08-08T20:16:33.002Z"
+            },
+            {
+                "lon": -85.1368,
+                "lat": 41.8332,
+                "speedMph": 523,
+                "altitudeFt": 22708,
+                "source": "derived",
+                "date": "2022-08-08T20:15:32.863Z"
+            },
+            {
+                "lon": -85.3049,
+                "lat": 41.837,
+                "speedMph": 516,
+                "altitudeFt": 22219,
+                "source": "derived",
+                "date": "2022-08-08T20:14:32.838Z"
+            },
+            {
+                "lon": -85.4702,
+                "lat": 41.848,
+                "speedMph": 508,
+                "altitudeFt": 21785,
+                "source": "derived",
+                "date": "2022-08-08T20:13:32.759Z"
+            },
+            {
+                "lon": -85.6317,
+                "lat": 41.8649,
+                "speedMph": 508,
+                "altitudeFt": 21247,
+                "source": "derived",
+                "date": "2022-08-08T20:12:32.510Z"
+            },
+            {
+                "lon": -85.7954,
+                "lat": 41.8846,
+                "speedMph": 499,
+                "altitudeFt": 20633,
+                "source": "derived",
+                "date": "2022-08-08T20:11:32.475Z"
+            },
+            {
+                "lon": -85.9527,
+                "lat": 41.9074,
+                "speedMph": 491,
+                "altitudeFt": 20061,
+                "source": "derived",
+                "date": "2022-08-08T20:10:32.089Z"
+            },
+            {
+                "lon": -86.1054,
+                "lat": 41.9343,
+                "speedMph": 487,
+                "altitudeFt": 19508,
+                "source": "derived",
+                "date": "2022-08-08T20:09:31.801Z"
+            },
+            {
+                "lon": -86.2597,
+                "lat": 41.9533,
+                "speedMph": 470,
+                "altitudeFt": 18889,
+                "source": "derived",
+                "date": "2022-08-08T20:08:31.762Z"
+            },
+            {
+                "lon": -86.4114,
+                "lat": 41.9589,
+                "speedMph": 466,
+                "altitudeFt": 18333,
+                "source": "derived",
+                "date": "2022-08-08T20:07:31.704Z"
+            },
+            {
+                "lon": -86.5642,
+                "lat": 41.9596,
+                "speedMph": 473,
+                "altitudeFt": 17660,
+                "source": "derived",
+                "date": "2022-08-08T20:06:31.604Z"
+            },
+            {
+                "lon": -86.7778,
+                "lat": 41.95,
+                "speedMph": 285,
+                "altitudeFt": 9917,
+                "source": "derived",
+                "date": "2022-08-08T20:05:31.599Z"
+            },
+            {
+                "lon": -86.8698,
+                "lat": 41.9448,
+                "speedMph": 475,
+                "altitudeFt": 16509,
+                "source": "derived",
+                "date": "2022-08-08T20:04:31.523Z"
+            },
+            {
+                "lon": -87.0389,
+                "lat": 41.9545,
+                "speedMph": 497,
+                "altitudeFt": 15660,
+                "source": "derived",
+                "date": "2022-08-08T20:03:31.434Z"
+            },
+            {
+                "lon": -86.0855,
+                "lat": 41.9578,
+                "speedMph": 473,
+                "altitudeFt": 14447,
+                "source": "derived",
+                "date": "2022-08-08T20:02:31.362Z"
+            },
+            {
+                "lon": -87.3775,
+                "lat": 41.9607,
+                "speedMph": 231,
+                "altitudeFt": 5620,
+                "source": "derived",
+                "date": "2022-08-08T20:01:31.270Z"
+            },
+            {
+                "lon": -87.4429,
+                "lat": 41.9845,
+                "speedMph": 398,
+                "altitudeFt": 12024,
+                "source": "derived",
+                "date": "2022-08-08T20:00:35.720Z"
+            },
+            {
+                "lon": -87.5701,
+                "lat": 41.9968,
+                "speedMph": 376,
+                "altitudeFt": 10823,
+                "source": "derived",
+                "date": "2022-08-08T19:59:35.498Z"
+            },
+            {
+                "lon": -87.0341,
+                "lat": 41.95,
+                "speedMph": 263,
+                "altitudeFt": 8191,
+                "source": "derived",
+                "date": "2022-08-08T19:58:35.443Z"
+            },
+            {
+                "lon": -87.1183,
+                "lat": 41.95,
+                "speedMph": 256,
+                "altitudeFt": 7591,
+                "source": "derived",
+                "date": "2022-08-08T19:57:35.414Z"
+            },
+            {
+                "lon": -87.2,
+                "lat": 41.9528,
+                "speedMph": 248,
+                "altitudeFt": 6991,
+                "source": "derived",
+                "date": "2022-08-08T19:56:35.366Z"
+            },
+            {
+                "lon": -87.2818,
+                "lat": 41.9565,
+                "speedMph": 240,
+                "altitudeFt": 6372,
+                "source": "derived",
+                "date": "2022-08-08T19:55:33.381Z"
+            },
+            {
+                "lon": -87.3584,
+                "lat": 41.9599,
+                "speedMph": 233,
+                "altitudeFt": 5772,
+                "source": "derived",
+                "date": "2022-08-08T19:54:33.350Z"
+            },
+            {
+                "lon": -87.4331,
+                "lat": 41.9631,
+                "speedMph": 225,
+                "altitudeFt": 5169,
+                "source": "derived",
+                "date": "2022-08-08T19:53:32.945Z"
+            },
+            {
+                "lon": -87.5047,
+                "lat": 41.9661,
+                "speedMph": 217,
+                "altitudeFt": 4570,
+                "source": "derived",
+                "date": "2022-08-08T19:52:32.940Z"
+            },
+            {
+                "lon": -87.574,
+                "lat": 41.9689,
+                "speedMph": 210,
+                "altitudeFt": 3970,
+                "source": "derived",
+                "date": "2022-08-08T19:51:32.916Z"
+            },
+            {
+                "lon": -87.5893,
+                "lat": 42.1801,
+                "speedMph": 604,
+                "altitudeFt": 668,
+                "source": "derived",
+                "date": "2022-08-08T19:50:51.592Z"
+            },
+            {
+                "lon": -87.91,
+                "lat": 41.98,
+                "speedMph": 168,
+                "altitudeFt": 668,
+                "source": "derived",
+                "date": "2022-08-08T19:50:00.000Z"
+            },
+            {
+                "lon": -87.6879,
+                "lat": 41.9064,
+                "speedMph": 214,
+                "altitudeFt": 668,
+                "source": "derived",
+                "date": "2022-08-08T19:49:51.536Z"
+            }
+        ],
         "miniTracker": {
-            "statusName": "DEPARTED",
-            "flightStatusCode": "A",
+            "statusName": "LANDED",
+            "flightStatusCode": "L",
             "utcDepartureTime": 1659986940,
             "localDepartureTime": 1659968940,
             "localDepartureTimeString": "2022-08-08T14:29:00.000",
             "isActualDepartureTime": false,
-            "utcArrivalTime": 1659992700,
-            "localArrivalTime": 1659978300,
-            "localArrivalTimeString": "2022-08-08T17:05:00.000",
+            "utcArrivalTime": 1659993540,
+            "localArrivalTime": 1659979140,
+            "localArrivalTimeString": "2022-08-08T17:19:00.000",
             "isActualArrivalTime": false,
-            "utcActualRunwayArrivalTime": null,
+            "utcActualRunwayArrivalTime": 1659993000,
             "utcActualRunwayDepartureTime": 1659988380,
             "totalKilometers": 847.3507492876795,
             "arrivalAirport": "SCE",
             "departureAirport": "ORD",
-            "kilometersFromDeparture": 215.71343326775437,
-            "kilometersToArrival": 631.788114573287
+            "kilometersFromDeparture": 843.9302830583313,
+            "kilometersToArrival": 3.8432059458418575
         }
     }
 }
